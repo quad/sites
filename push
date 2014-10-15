@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+rsync --archive --partial --progress --exclude .git --exclude push . quad_quadhome@ssh.phx.nearlyfreespeech.net:
