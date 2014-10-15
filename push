@@ -2,4 +2,15 @@
 
 set -e
 
-rsync --archive --partial --progress --exclude .git --exclude push . quad_quadhome@ssh.phx.nearlyfreespeech.net:
+HERE=$(dirname $0)
+
+rsync \
+	--archive \
+	--partial \
+	--progress \
+	--delete \
+	--exclude .git \
+	--exclude push \
+	--delete-excluded \
+	-- \
+	$HERE quad_quadhome@ssh.phx.nearlyfreespeech.net:
