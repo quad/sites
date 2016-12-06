@@ -10,6 +10,7 @@ rsync \
 	--progress \
 	--delete \
 	--exclude .git \
+	--exclude .*.swp \
 	--exclude push \
 	--delete-excluded \
 	-- \
