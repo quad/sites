@@ -19,6 +19,19 @@
 				color: #333;
 				background: snow;
 			}
+
+			ul {
+				padding: 0;
+			}
+
+			ul li {
+				display: inline;
+			}
+
+			ul li:not(:last-child):after {
+				content: " |";
+			}
+
 		</style>
 	</head>
 	<body>
@@ -38,13 +51,13 @@
 
 		<p> Scott Robinson &lt;<a href="mailto:scott@quadhome.com">scott@quadhome.com</a>&gt; </p>
 
-		<p>
-			<a href="http://blog.quadhome.com/">i will do this using capitalism</a> |
-			<a href="http://mixtape.quadhome.com/">mixtapes, ad interim</a> |
-			<a href="http://fragments.quadhome.com/">fragments</a> |
-			<a href="http://bedlamtaipei.com/">bedlam 臺北</a> |
-			<a href="http://travel.quadhome.com/">travel is fatal</a> |
-			<a href="http://cut.quadhome.com/">cut</a>
-		</p>
+		<ul>
+			<li><a href="http://blog.quadhome.com/">i will do this using capitalism</a></li>
+			<li><a href="http://mixtape.quadhome.com/">mixtapes, ad interim</a></li>
+			<li><a href="http://fragments.quadhome.com/">fragments</a></li>
+			<li><a href="http://bedlamtaipei.com/">bedlam 臺北</a></li>
+			<li><a href="http://travel.quadhome.com/">travel is fatal</a></li>
+			<li><a href="http://cut.quadhome.com/">cut</a></li>
+		</ul>
 	</body>
 </html>
