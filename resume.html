@@ -13,12 +13,14 @@
 
         <style type="text/css">
             <!--
-            body { margin: 0; }
+            section:first-child ul { padding: 0 }
+            section:first-child ul li { display: inline; }
+            section:first-child ul li:not(:last-child):after { content: " /"; }
 
-            section { padding: 0 1em; }
             section heading { font-family: sans-serif; }
-            section h1 { font-size: large; }
-            section h2 { font-size: medium; }
+            section h1 { font-size: x-large; }
+            section h2 { font-size: large; }
+            section h3 { font-size: medium; }
 
             #contact { margin: auto; }
             #contact th { padding: 0.25em; text-align: center; font-family: sans-serif; font-size: x-large; }
@@ -29,68 +31,71 @@
         </style>
     </head>
     <body id="cv">
-        <table id="contact">
-            <thead>
-                <tr>
-                    <th colspan="2">David Ryland Scott Robinson</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="left">
-                        台灣台南市北區<br />
-                        成功路50號11樓之1<br />
-                        Taiwan
-                    </td>
-
-                    <td class="right">
-                        <a href="mailto:scott@quadhome.com">scott@quadhome.com</a><br />
-                        +886 978 571 974<br />
-                        <a href="http://quadhome.com/resume.html">http://quadhome.com/resume.html</a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
         <section>
             <heading>
-                <h1>ThoughtWorks (Melbourne, Perth, Bangalore, Singapore, Sydney, 成都)</h1>
-
-                <h2>Senior Consultant, August 2010 - August 2015</h2>
+                <h1>David Ryland Scott Robinson</h1>
             </heading>
 
             <ul>
-                <li>Led software delivery projects for partners ranging from startups, NGOs, and multi-national corporations.</li>
+                <li><a href="mailto:scott@quadhome.com">scott@quadhome.com</a></li>
+                <li>+1 (206) 229-9142</li>
+                <li>+886 978 571 974</li>
+            </ul>
+        </section>
+
+        <section>
+            <heading>
+                <h2>National Cheng Kung University Chinese Language School (台南)</h2>
+                <h3>Student, August 2015 - October 2016</h3>
+            </heading>
+
+            <p>
+                Improved my Mandarin Chinese language skills.
+            </p>
+
+            <ul>
+                <li>Lived in an exclusively Mandarin speaking environment.</li>
+                <li>Organized ticket collection for a 1000 person music festival.</li>
+                <li>Obtained Level Three（進階）in the Test of Chinese as a Foreign Language.</li>
+            </ul>
+        </section>
+
+        <section>
+            <heading>
+                <h2>ThoughtWorks (Melbourne, Perth, Bangalore, Singapore, Sydney, 成都)</h2>
+                <h3>Senior Consultant, August 2010 - August 2015</h3>
+            </heading>
+
+            <ul>
+                <li>Led software delivery projects, in both English and Mandarin, for partners ranging from startups, NGOs, and corporations.</li>
                 <li>Established office culture, helped scale from ~5 to 20+ consultants, closed and grew key accounts during expansion into the South-East Asian market.</li>
+		<li>Wrote and deployed code across a mix of tech stacks including Ruby, Javascript, Swift, Objective-C, PHP, Java and a variety of PaaS and IaaS.</li>
                 <li>Advanced free and open-source efforts by driving policy change, community outreach, and direct contribution.</li>
                 <li>Developed interactive course teaching test-driven development used on multiple continents with hundreds of students.</li>
-                <li>Spoke on topics including organizational change, emerging technologies, and development process.</li>
-                <li>Mentored individuals, taught small groups, and lectured classes (50+) from mixed cultural backgrounds on technical and consulting topics.</li>
+                <li>Mentored individuals, taught groups sizes up to 50+ from mixed cultural backgrounds on organizational change, emerging technologies, and development process.</li>
 
                 <!--
-                <ul>
-                    <li>Sustainably doubled the delivery velocity for the largest South-East Asian online property sales mobile website.</li>
-                    <li>Introduction of continuous delivery processes to a large Australian bank.</li>
-                    <li>A collaboration portal for an Australian social investment firm.</li>
-                    <li>Kickoff of the continuous delivery organizational change program for a world-class air carrier.</li>
-                    <li>Offshore mobile development effort for an American air carrier.</li>
+                <li>Sustainably doubled the delivery velocity for the largest South-East Asian online property sales mobile website.</li>
+                <li>Introduction of continuous delivery processes to a large Australian bank.</li>
+                <li>A collaboration portal for an Australian social investment firm.</li>
+                <li>Kickoff of the continuous delivery organizational change program for a world-class air carrier.</li>
+                <li>Offshore mobile development effort for an American air carrier.</li>
 
-                    <li>Mobile site for the Agile Australia 2010 conference.</li>
-                    <li>Major online sales channels opened for a large Australian insurance provider.</li>
-                    <li>Mobile tools assisting aid workers track children in emergency situations.</li>
-                    <li>An emergency housing coordination site rapidly built and deployed in the wake of the 2010-2011 Queensland Floods.</li>
-                    <li>The line-of-business platform for the Australian offshore petroleum regulatory agency.</li>
-                    <li>A mobile voice assistant bespoke for a Pan-Asian bank's high value customers.</li>
-                    <li>Award winning revitalization of the online B2B sales channel for a large South-East Asian telecom.</li>
-                </ul>
+                <li>Mobile site for the Agile Australia 2010 conference.</li>
+                <li>Major online sales channels opened for a large Australian insurance provider.</li>
+                <li>Mobile tools assisting aid workers track children in emergency situations.</li>
+                <li>An emergency housing coordination site rapidly built and deployed in the wake of the 2010-2011 Queensland Floods.</li>
+                <li>The line-of-business platform for the Australian offshore petroleum regulatory agency.</li>
+                <li>A mobile voice assistant bespoke for a Pan-Asian bank's high value customers.</li>
+                <li>Award winning revitalization of the online B2B sales channel for a large South-East Asian telecom.</li>
                 -->
             </ul>
         </section>
 
         <section>
             <heading>
-                <h1>Cardiox (Columbus)</h1>
-                <h2>Contract Engineer, February 2010 - April, 2010</h2>
+                <h2>Cardiox (Columbus)</h2>
+                <h3>Contract Engineer, February 2010 - April, 2010</h3>
             </heading>
 
             <p>
@@ -107,12 +112,12 @@
 
         <section>
             <heading>
-                <h1>(Earth)</h1>
-                <h2>Traveller, February 2009 - June, 2010</h2>
+                <h2>(Earth)</h2>
+                <h3>Traveller, February 2009 - June, 2010</h3>
             </heading>
 
             <p>
-                 Inadvertently circumnavigated. Kept writing code.
+                Inadvertently circumnavigated. Kept writing code.
             </p>
 
             <ul>
@@ -129,8 +134,8 @@
 
         <section>
             <heading>
-                <h1>Microsoft Corporation (Redmond)</h1>
-                <h2>Software Development Engineer, January 2008 - February, 2009</h2>
+                <h2>Microsoft Corporation (Redmond)</h2>
+                <h3>Software Development Engineer, January 2008 - February, 2009</h3>
             </heading>
 
             <p>
@@ -145,7 +150,25 @@
 
         <section>
             <heading>
-                <h1>Publications &amp; Presentations</h1>
+                <h2>Education</h2>
+            </heading>
+
+            <p>
+                B.Sc. Computer Science (incomplete),
+                Washington State University,
+                2007
+            </p>
+
+            <p>
+                A.A.,
+                Green River Community College,
+                2004
+            </p>
+        </section>
+
+        <section>
+            <heading>
+                <h2>Publications &amp; Presentations</h2>
             </heading>
 
             <ul>
@@ -170,30 +193,7 @@
                     Hong Kong,
                     December 2012
                 </li>
-
             </ul>
-        </section>
-
-        <section>
-            <heading>
-                <h1>Education</h1>
-            </heading>
-
-            <p>
-                獲得華語文能力測驗進階證書（2016），也曾經在跨國公司的中國辦公室擔任項目經理職務
-            </p>
-
-            <p>
-                B.Sc. Computer Science (incomplete),
-                Washington State University,
-                2007
-            </p>
-
-            <p>
-                A.A.,
-                Green River Community College,
-                2004
-            </p>
         </section>
     </body>
 </html>
