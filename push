@@ -1,0 +1,23 @@
+#!/bin/sh
+
+set -e
+
+HERE=$(dirname $0)
+
+push () {
+	FROM=$1/
+	TO=$2
+
+	rsync \
+		--archive \
+		--partial \
+		--progress \
+		--delete \
+		--exclude '.*.swp' \
+		--exclude .DS_Store \
+		--delete-excluded \
+		-- \
+		"$FROM" "$TO@ssh.phx.nearlyfreespeech.net:"
+}
+
+push danhards.com quad_danhards
