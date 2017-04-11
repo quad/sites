@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/quad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://drsr.me
+  * I am quad (https://keybase.io/quad) on keybase.
+  * I have a public key ASBxDFR1P5fGthosSBX-iUd18uAFSCpNZdqCY0yE0QaPvQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120710c54753f97c6b61a2c4815fe894775f2e005482a4d65da82634c84d1068fbd0a",
+            "host": "keybase.io",
+            "kid": "0120710c54753f97c6b61a2c4815fe894775f2e005482a4d65da82634c84d1068fbd0a",
+            "uid": "87bef53b8dbcb8dc98098adb78a41500",
+            "username": "quad"
+        },
+        "service": {
+            "hostname": "drsr.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
+    },
+    "ctime": 1491876410,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1491876405,
+        "hash": "0b0c814b796ae6f392ae9910d387133ec7ab101be2a620f7520f638b390571d1b2122f8abb8bd7b33f0c8753deedaab12fcf497092e18cb7f3e733093ec12710",
+        "seqno": 1011637
+    },
+    "prev": "a3699baaf6a95d275dd66e8e6a1d15cd37ee2bec8e53a89e00a3cfff7aae9619",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcQxUdT+XxrYaLEgV/olHdfLgBUgqTWXagmNMhNEGj70Kp3BheWxvYWTFAut7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzEwYzU0NzUzZjk3YzZiNjFhMmM0ODE1ZmU4OTQ3NzVmMmUwMDU0ODJhNGQ2NWRhODI2MzRjODRkMTA2OGZiZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzEwYzU0NzUzZjk3YzZiNjFhMmM0ODE1ZmU4OTQ3NzVmMmUwMDU0ODJhNGQ2NWRhODI2MzRjODRkMTA2OGZiZDBhIiwidWlkIjoiODdiZWY1M2I4ZGJjYjhkYzk4MDk4YWRiNzhhNDE1MDAiLCJ1c2VybmFtZSI6InF1YWQifSwic2VydmljZSI6eyJob3N0bmFtZSI6ImRyc3IubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNDkxODc2NDEwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0OTE4NzY0MDUsImhhc2giOiIwYjBjODE0Yjc5NmFlNmYzOTJhZTk5MTBkMzg3MTMzZWM3YWIxMDFiZTJhNjIwZjc1MjBmNjM4YjM5MDU3MWQxYjIxMjJmOGFiYjhiZDdiMzNmMGM4NzUzZGVlZGFhYjEyZmNmNDk3MDkyZTE4Y2I3ZjNlNzMzMDkzZWMxMjcxMCIsInNlcW5vIjoxMDExNjM3fSwicHJldiI6ImEzNjk5YmFhZjZhOTVkMjc1ZGQ2NmU4ZTZhMWQxNWNkMzdlZTJiZWM4ZTUzYTg5ZTAwYTNjZmZmN2FhZTk2MTkiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED7Pdv/mvdFNHQpkQp0w45jkOlX1rC0DhHwUGD68pfMMs46oJI92hX2CWbUesvoOfsDx5up1YB+k2W91+IGGBUJqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgJCfl5S2MmkKivBvlrON4hl4jNi1AEQe/8syjwucAvQWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/quad
+
+==================================================================
