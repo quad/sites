@@ -1,0 +1,41 @@
+<Slant> FlipTopBox: Girls are icky.
+<FlipTopBox> hey all
+<FlipTopBox> icky, eh?
+<Slant> 100% super-duper icky.
+<FlipTopBox> hehe
+<FlipTopBox> and why is that?
+<Slant> Because they are.
+<Slant> :-)
+<Slant> I haven't decided on a reason yet.
+<FlipTopBox> heh
+<Slant> icky is produced from the root word "ick"
+<Slant> icky [phonetic] [Phonetic] [Phonetic] [Phonetic] [Phonetic]
+          [Phonetic] [phonetic] adjective INFORMAL
+<Slant> unpleasant
+<Slant> What an icky colour that green is!
+<Slant> Thus, women are unpleasant.
+<FlipTopBox> with an attitude like that, you'll never get a woman!
+<Slant> pleasant [phonetic] [Phonetic] [Phonetic] [Phonetic] [Phonetic]
+          [Phonetic] [Phonetic] [Phonetic] [Phonetic] [Phonetic] [phonetic]
+          adjective
+<Slant> enjoyable, attractive or friendly; easy to like
+<FlipTopBox> but then, that would kill off your PRMntvirgin PSO character
+<FlipTopBox> hehe
+<Slant> thus, women are not "enjoyable, attractice or friendly; easy to like"
+<Slant> Notice the usage of or.
+<Slant> it doesn't imply all of the above
+<Slant> So when I say "girls are icky"
+<Slant> It comes down to a logical structure:
+<Slant> {
+<Slant> Girl_class girl;
+<Slant> girl = new Girl_class;
+<Slant> if (!(girl.attractive && girl.enjoyable && girl.friendly &&
+          girl.easy_to_like))
+<Slant> return Girl_class.ICKY_CONST;
+<Slant> else
+<Slant> return Girl_class.PRETTY_CONST;
+<Slant> }
+<FlipTopBox> so then is your point that girlkind (as a demographic) do not
+          earn the PRETTY_CONST?
+<Slant> Yup.
+<FlipTopBox> ahh.
