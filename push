@@ -6,7 +6,7 @@ HERE=$(dirname "$0")
 
 push () {
 	FROM=$HERE/$1/
-	TO=$2
+	TO=$2@ssh.phx.nearlyfreespeech.net
 
 	rsync \
 		--archive \
@@ -16,8 +16,11 @@ push () {
 		--exclude '.*.swp' \
 		--exclude .DS_Store \
 		--delete-excluded \
+		--filter 'protect .well-known/acme-challenge/' \
 		-- \
-		"$FROM" "$TO@ssh.phx.nearlyfreespeech.net:"
+		"$FROM" "$TO:"
+
+	ssh "$TO" tls-setup.sh
 }
 
 push danhards.com quad_danhards
