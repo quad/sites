@@ -2,27 +2,21 @@
 
 set -e
 
-HERE=$(dirname "$0")
+FROM=$(dirname "$0")
+TO=quad_quadsites@ssh.phx.nearlyfreespeech.net
 
-push () {
-	FROM=$HERE/$1/
-	TO=$2@ssh.phx.nearlyfreespeech.net
+rsync \
+	--archive \
+	--partial \
+	--progress \
+	--delete \
+	--exclude '$0' \
+	--exclude '.*.swp' \
+	--exclude '.git' \
+	--exclude '.DS_Store' \
+	--delete-excluded \
+	--filter 'protect .well-known/acme-challenge/' \
+	-- \
+	"$FROM" "$TO:"
 
-	rsync \
-		--archive \
-		--partial \
-		--progress \
-		--delete \
-		--exclude '.*.swp' \
-		--exclude .DS_Store \
-		--delete-excluded \
-		--filter 'protect .well-known/acme-challenge/' \
-		-- \
-		"$FROM" "$TO:"
-
-	ssh "$TO" tls-setup.sh
-}
-
-push danhards.com quad_danhards
-push drsr.me quad_drsr
-push quadhome.com quad_quadhome
+ssh "$TO" tls-setup.sh
