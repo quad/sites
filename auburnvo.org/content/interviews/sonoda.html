@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+   <TITLE>[VOOT] Interview with the Programmer</TITLE>
+   <!-- God damn Netscape with it's stupid uppercasing of the HTML tags -->
+</HEAD>
+<BODY>
+
+<H1>Interview with Sonoda Yoshihiro - the main programmer of VOOT</H1>
+
+<H2>Build, Moderate, and Rebuild Over and Over again</H2>
+
+<P>
+It is a programmers' task to integrate all the ideas and finalize the shape
+of a videogame. Here is the story of the difficulties and enjoyments he
+(<i>Scott</i>: Sonoda) had in development.
+</P>
+
+<H2></H2>
+
+<TABLE>
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+So, you did the programming part this time. I'm afraid, however, it is hard
+to have a concrete image of what you do as a programmer, so tell me your
+idea about a programmer's job thoughout the development.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonada:</TD>
+
+<TD>
+We were assigned all the tasks except graphic design.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+So, it largely depends on a programmer's technique to give form to Watari's
+concept?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Because his concept was a little bit amorphous, there were several stages
+set to give it a shape. It is designer's job to decide the graphical look of
+a videogame. On the other hand, it is the programmer's to have to deal with
+the actual gaming part, and we also have to deal with the specification of a
+videogame in detail as well as to add modifications to it when needed.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+So, could you tell me what was the toughest issue you had when you developed
+this game?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+This was the first project AM3 developed using Model 3 board, and we started
+from building libraries and tools that were usable in all AM devs' projects.
+Even though we finished the job, we also had to support these libraries and
+tools. Because I had to do the support in parallel with the development of
+VOOT, we had a tough time. But luckily, because of this, I happened to have
+an opportunity to get my name in the credits of "Jurrasic Park"
+(<i>Satoru</i>: <b>:)</b>)
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+So, you had a hard time even before development of the game?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Yes, and in the actual coding part, the construction of game system itself
+was a major job. Because no videogame employed "twin sticks" before OMG and
+, though it was not so hard this time, because what we did was, more or
+less, only the expansion of gaming system, and the quantity of work is, say,
+the kinds of weapon and motion, it all kept increasing. Speaking of the
+controlling system, we stuck everything in it with all kinds of actions that
+correspond to various kinds of combinations of the inputs from two sticks
+and states of the four buttons, and we had to tackle it.
+</TD>
+</TR>
+</TABLE>
+
+<H2>&quot;It didn't take much time to develop the system, but we spent more
+time on moderation.&quot;</H2>
+
+
+<TABLE>
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+In terms of the number of weapons, when we doubled the kinds, and later had
+to quadruple the number of the kinds of cancellation between weapon.
+(<i>Satoru</i>: such as a ST's missile cancelled by Raiden's mine.) The
+number of things to do increased exponentially. Also, because a lot of
+people complained about the loose collision detection in OMG, we made the
+engine in VOOT more precise along all parts of VRs. (<i>Satoru</i>: like the
+hands of Temjin has its own collision detection.) But, this made the game
+too precise, I mean, too many missiles easily hit, I felt. Players would not
+complain even if a missile happens to miss, but they would care more about
+unexpected damage, so we enlarged the collision detection, then made it
+small, and made it bigger again... We spent a lot of time on it.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+So, you fixed the game many times?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+We have no way to find out the fun part of a videogame until we complete it,
+so yes, we repeated it countless times. The gaming system of VOOT was
+completed one year before the its release. What was left was only to rebuild
+it. Basically, it doesn't take the time to create, but it does to fix the
+problems.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+The moderation is one of the most important things?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Yes, whether a game is sucky or not is significantly up to its moderation.
+Especially game interface, it is very critical because it is the part
+players directly touch, so we took a lot of care with it. This can be seen,
+say, with the recognition of crouching actions of VRs or the timing of
+motion complementation, and we have to think of what players "feel" most
+importantly.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+I heard the release version of OMG was 3.3 because you made three versions
+of it, so did you make two versions before the release of 5.2?
+(<i>Scott</i>: Wouldn't that make it 3.4 or 5.3?)
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Yes. We made a version where the game only had stages like the Tangram
+stage; because we wanted to do something new. However, even though we
+finished making that version, it turned out to be too different in terms of
+gameplay, and was almost unplayable. Consequently, we just left the stage
+like that for Tangram in the release version.
+</TD>
+</TR>
+</TABLE>
+
+<H2>All the Essence Is Concentrated in the 3 Minutes of Gameplay in Arcade
+Games</H2>
+
+<TABLE>
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+By the way, currenly you belong to the development section of arcade
+(<i>Satoru</i>: instead of consumer videogames), but what do you think is
+good about arcade games?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Basically, we create an arcade game thinking of "100 yen for three minutes
+(<i>Satoru</i>: play)." Sometimes our game development can't go along with
+this idea, but really good videogames are the ones that succeed to pack
+every fun factor within three minutes after a player begins to play. So, it
+is interesting to design a videogame with this in mind.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+For example, how did you do so in VOOT?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+In "Virtual-On", players are allowed to create a game's highlight
+themselves. So, the time limit is set at the beginning and a player is
+allowed to form a strategy, and he or she can make a scenario on a game's
+highlight scene. Of course, they do this for 100 yen spent for some fun, so
+they naturally get serious about a game, but I think this is an interesting
+point.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+Do you sometimes go downtown to see how VOOT is played? 
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+I often go to <i>Shinjuku</i>.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+Do you have something in mind that surprised you there?
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Not much, because we basically tried to make every action possible.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+But how about special techniques like chain tongfer? (<i>Satoru</i>: chain
+tongfer is BT's technique discovered in ver 5.2 allowing players to throw
+tongfer rings without spending any energy for the center weapons. The
+interviewer implied that this technique was not an authorized action.)
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+Basically, I'm thrilled to see those unexpected motions, and I'm OK with
+them as long as they do not change the game balance significantly.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+Lastly, give us a comment to the eager players of "Virtual-On."
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Sonoda:</TD>
+
+<TD>
+I'm glad to see people are enjoying SEGA's videogames. I'm rather worried
+that some people take it so seriouslu, like a life-altering experience... We
+present you, VOOT players, with an unlimited field. Just like OMG, we want
+you to play this game long (<i>Scott</i>: and often). I'm also glad to have
+a lot of critics about our products, though, I'm afraid some people like to
+criticize more than to play... Please don't tease us too much.
+</TD>
+</TR>
+
+<TR>
+<TD VALIGN="TOP">Interviewer:</TD>
+
+<TD>
+Thank you for joining us today.
+</TD>
+</TR>
+</TABLE>
+
+<P>
+Translation By: <I>Satoru</I> on May 17th, 2001.
+<BR>
+HTML Conversion &amp; Cleanup: <I>Scott</I> on May 23rd, 2001.
+</P>
+
+</BODY>
+</HTML>

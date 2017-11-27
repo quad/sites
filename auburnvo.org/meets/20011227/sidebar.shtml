@@ -1,0 +1,37 @@
+<!-- meets/20011227/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font><br>at 5pm&nbsp;-&nbsp;11pm</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        418 E. Loretta Pl<br>
+        Apt #416<br>
+        Seattle, 98122<br>
+        (Door Code: #081)
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Robinson<br>
+        (425) 432-3532
+      </td>
+    </tr>
+  </table>

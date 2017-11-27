@@ -1,0 +1,535 @@
+=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=
+A Character Guide to Temjin for
+Cybertroopers Virtual-On: Oratorio Tangram
+Versions 5.4 and above.
+Release: v1.0
+Written by: Scott Robinson <scott_vo@quadhome.com>
+=============================================================
+
+Note
+-----
+This should be displayed in mono-space format.
+The dots and numbers should line up.
+
+..........
+1234567890
+
+//---------------//
+//  Legal Stuff  //
+//---------------//
+
+Cybertroopers Virtual-On: Oratorio Tangram and its characters are the
+property of Sega of Japan. The above authors wrote this guide. We, the
+authors, are not affiliated with Sega, and this guide is not official in any
+way. We wrote this guide because we felt there wasn't enough complete
+Virtual-On information on the Internet. This guide is distributed under the
+Open Content license (http://www.opencontent.org/) with the addition that
+commercial redistribution, republication, or reproducation may on be
+possible with the explicit permission of the authors.
+
+Essentially, if you want to make money off this, we want to hear about it.
+
+//-------------------//
+//  Version History  //
+//-------------------//
+
+v1.0 - Tue Feb 12 2002
+I just took the pieces of a bunch of other incomplete guides I've
+worked on and threw them together. Oh, then pretended to edit and add
+further information based on my improved Virtual-On skillz. Take it bitches!
+
+=============================================================
+
+Part I: Introduction to ...
+   1.1 ... Virtual-On
+    .2 ... Virtual-On's control system
+    .3 ... this guide
+    .4 ... the Temjin - MBV-707-G
+
+Part II: Ranged Weapon Data
+   2.1 Left Weapon (Power Bomb)
+    .2 Right Weapon (Long Launcher)
+    .3 Center Weapon (Sword)
+
+Part III: Melee Weapon Data
+   3.2 Basic CC
+    .3 Chains and Combos
+    .4 LT Projectiles
+
+Part IV: Basic Strategies
+Part V: Advanced Strategies
+
+Appendix 1: Tables
+  A1.1 Health Matchup
+    .2 Knockdown/Stun
+
+Appendix 2: Fin
+  A2.1 Further reading
+    .2 Credits
+
+=============================================================
+Part I: Introduction to ...
+=============================================================
+
+//-----------------------//
+//  1.1. ... Virtual-On  //
+//-----------------------//
+
+Sega's Cybertroopers Virtual On: Oratorio Tangram is the sequel to
+Cybertroopers Virtual-On: Operation Moongate. Virtual-On is a 3D PvP "mech"
+fighting game spanning over four gaming systems. It is arguably one of the
+deeper fighting games and is alone in its genre due to its high quality.
+
+More information on Virtual-On is available in the Further Reading (A.1)
+section.
+
+//----------------------------------------//
+//  1.2. ... Virtual-On's control system  //
+//----------------------------------------//
+
+This guide assumes you have basic comprehension of Virtual-On game-play.
+
+[1.2.1 10-key notation]
+
+       789
+    WT 456 WT
+       123
+
+    W   Stick-side Weapon Trigger
+    T   Stick-side Turbo Trigger
+
+Example:
+
+  6.6T      Both sticks right while pressing right stick turbo trigger.
+  8W.9T     Left stick foward and left stick forward diagonally right while
+             pressing left weapon trigger and right turbo trigger.
+
+[1.2.2 Twin Stick control]
+
+    O-- O--         4.4     Both sticks left; VR walks left
+    O--  O        4.5/5.4   One stick left; VR shuffles left
+
+    --O --O         6.6     Both sticks right; VR walks right
+     O  --O       5.6/6.5   One stick right; VR shuffles right
+
+     |   |          2.2     Both sticks back; VR walks backwards
+     O   O        2.5/5.2   One stick back; VR shuffles backwards
+
+     O   O          8.8     Both sticks forward; VR walks forwards
+     |   |        8.5/5.8   One stick forward; VR shuffles forwards
+
+     O   |          8.2     Both sticks in inverted directions;
+     |   O          2.8      rotation to the direction of the downward stick
+
+    O-- --O         4.6     Both sticks apart; VR jumps (J)
+
+    --O O--         6.4     Both sticks inward; Guard (G) / Crouch (Cr) / Guard
+                             Buffer (Gr)
+
+    Right Turbo     5.5T    Right Turbo (RT) / Dash (D) / Dash Cancel
+    Left Turbo      5T.5    Left Turbo (LT) / Dash (D) / Dash Cancel
+    Both Turbo      5T.5T   Both Turbo (BT)
+
+    Right Trigger   5.5W    Right Weapon (RW)
+    Left Trigger    5W.5    Left Weapon (LW)
+    Both Triggers   5W.5W   Center Weapon (CW)
+
+[1.2.3 Dreamcast control - "A" configuration]
+
+    Digital Pad Right   VR walks right
+    Digital Pad Left    VR walks left
+    Digital Pad Down    VR walks backwards
+    Digital Pad Up      VR walks forwards
+
+    Analog Up/Down      Start Button
+    Analog Left/Right   Rotate VR Left Right
+
+    Start Button        Pauses/Options for Game
+
+    A Button            Guard (G) / Crouch (Cr) / Guard Buffer (Gr)
+    B Button            Right Turbo (RT) / Dash (D) / Dash Cancel
+    X Button            Left Turbo (LT) / Dash (D) / Dash Cancel
+    Y Button            Jump (J)
+
+    Right Trigger       Right Weapon (RW)
+    Left Trigger        Left Weapon (LW)
+    Both Triggers       Center Weapon (CW)
+
+[1.2.4 Command Notation]
+
+[t] turbo command sets:
+    RT                  Right Turbo type attacks
+    LT                  Left Turbo type attacks
+    BT                  Both Turbo simultaneously type attacks
+
+[w] weapon command sets:
+    RW                  Right Weapon
+    LW                  Left Weapon
+    CW                  Center Weapon
+
+[m] modifier command sets:
+    Cr                  Guard (G) / Crouch (Cr) / Guard Buffer (Gr)
+    J                   Jumping
+    D                   Dashing
+
+Legal RANGEd command chording:
+    [w]                 A normal ranged attack.
+    [t][w]              A turbo ranged attack.
+    [m][w]              A modifed ranged attack.
+    [m][t][w]           A turbo modified ranged attack.
+
+Legal MELEE command chording:
+    [w]                 A normal melee attack. (Guard-able)
+    Cr[w]               A crouching attack. (UnBLOCKable and Knockdown)
+    [m]LT[w]            A range attack.
+    RT[w]               A turbo attack. (UnGUARDable and Knockdown)
+    Gr[w]               A Guard-Reversal attack. (Guard-able)
+
+Legal DASH command chording:
+    [w]                 A normal dashing attack.
+    Cr[w]               A normal dashing crouch attack.
+    2.5[w] or 5.2[w]    A dashing CC attack. (aerial with Cypher only!)
+
+Abbreviations:
+    V.Ar                Virtual Armor
+    CC                  Close Combat
+    MC                  Motion Cancel
+    QS                  Quick Step
+    QS-CC               Quick Step Close Combat
+    VOOT                Virtual On: Oratorio Tangram
+    VOOM                Virtual On: Operation Moongate (the prequel)
+
+//-----------------------//
+//  1.3. ... this guide  //
+//-----------------------//
+
+All damages in this guide (unless otherwise specified) are performed against
+a 0% V.Armour Dordray on Space Dock after the initial damage boost. Dordray
+was selected because it has the highest knockdown/stun resistance.
+
+If there are any corrections, please feel free to send them in!
+
+//-----------------------------------//
+//  1.4. ... the Temjin - MBV-707-G  //
+//-----------------------------------//
+
+Temjin is the medium class VR. A carry-over VR from VOOM, its basic style
+style was retained for purposes of transitioning players. It is heavily
+dependent upon its Long Launcher for damage and upon its Power Bomb for
+cover. Its Sword is mostly useful in CC. Temjin's strengths are best
+utilized in both medium and CC range.
+
+At higher levels of competition, Temjin becomes an angle machine!
+Outguessing your opponent, using mind games to throw them off, and
+occasionally throwing in Temjin's more powerful (but uncancellable) attacks
+makes him very dangerous and a highly effective VR.
+
+=============================================================
+Part II: Ranged Weapons Data
+=============================================================
+
+//---------------------------------//
+//  2.1. Left Weapon (Power Bomb)  //
+//---------------------------------//
+
+12 second recharge
+!!! Write a description
+
+[2.1.1 Standing Variations]
+
+   LW (88) 204.4m    +Cr 451.5 (66)
+
+[2.1.2 Crouching Variations]
+[2.1.3 Dashing Variations]
+[2.1.4 Jumping Varations]
+[2.1.5 Aerial Dashing Varations]
+
+//-------------------------------------//
+//  2.2. Right Weapon (Long Launcher)  //
+//-------------------------------------//
+
+!!! Add info here.
+
+100m RW 154
+699m RW 104
+
+//------------------------------//
+//  2.3. Center Weapon (Sword)  //
+//------------------------------//
+
+!!! Add info here.
+
+=============================================================
+Part III: Melee Weapon Data
+=============================================================
+
+//---------------------//
+//  3.1. Introduction  //
+//---------------------//
+
+In CC, Temjin's basic chains are extremely easy to master; however, they
+have very little variation. Its basic CC range is extremely long and well
+worth exploiting. The LW and QS-CC are definitely staples.
+
+In short, Temjin is basically a middle-tier learners VR. You can use it to
+pick up the basics of Virtual-On medium and long range combat.
+
+//-----------------//
+//  3.2. Basic CC  //
+//-----------------//
+
+[3.2.1 Basic Variations]
+
+Temjin's basic CC variations are well designed in their effectiveness
+changes depending on the skill level of the player and their opponent.
+
+The basic LW Quick Slice is Temjin's most useful basic CC attack. While it
+cannot be used as an advanced technique opening against any VR except
+Dordray, its relative quickness and high damage makes it great for quick CC
+hit and runs.
+
+The Poke is Temjin's quickest basic CC attack. It often can interrupt all
+but the very fastest of forseen CC attacks - as such it makes for a great
+basic counter. It also is the usual opening into more advanced CC tactics.
+However, it's attack angles are the tightest of any of Temjin's basic CC
+variations and thus its use is often limited.
+
+The Sword is often used by Temjin newbies or opponents who have recently
+made their transition from VOOM. At higher levels of gameplay, the CW is
+primary used as a shinku(u) extension counter. Otherwise, it's usage is
+often ignored in favour of a quicker and higher damaging RTCC variation.
+
+   LW (396)   +Cr (286) 59.9m   - Left-Right Quick Slice (Drop Kick Trip)
+   RW (363)   +Cr (242) 69.9m   - Poke (Low Poke)
+   CW (429)   +Cr (374) 99.9m   - Left-Right Slice (Unblockable Left-Right
+                                    Slice)
+
+[3.2.2 Turbo Variations]
+
+Temjin's RTCC variations are fairly average in their versatility. Their
+primary use is for extra damage when your opponent has been locked in an
+uncancellable attack or is stunned long enough for a single clean attack to
+be used.
+
+Temin's Power Punch is the quickest of all the variations, with the Drop
+flip Slice and Behind the back Slice coming in second and third,
+respectively.
+
+One interesting trick is while the RTCC variations are not post-hit QS or
+dash cancellable, they are post-hit guard cancellable. Thus, if your
+opponent is in stun from a [Cr]RTCW (rare) it is possible to perform a
+swallow's tail using the following chain: RT[w] -(G)> QS -> (2.5[w] or
+5.2[w])
+
+RT+
+   LW (451)     - Power Punch
+   RW (478)     - Drop flip Right-Left Slice
+   CW (500)     - Behind the back Left-Right Slice
+
+[3.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +------275------+
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+      \---------------/
+
+1 - Temjin circles around the opposing VR, slicing with its Beam Sword.
+
+[3.2.4 Guard Reversal CC]
+
+Temjin's guard reversals are fairly standard in their usage but great in
+their ability. The GrLW, with its great reach and rotation, is best used for
+interrupting QS-CC or attacking an enemy who is off-angle. The GrRW is quick
+and long, making it an effective interruption attack.
+
+   LW (242)     - Excellent homing and reach. Use to in
+   RW (209)     - Great for interrupting enemies out of CC!
+
+[3.2.5 Jumping CC]
+
+Temjin jumps and swings its Beam Sword above its head and smashes it down
+upon the opposing VR.
+
+ J+
+   LW (440)     - More homing, more damage!
+   RW (407)
+   CW (407)
+
+[3.2.6 Ground-Hit CC]
+
+Temjin's ground-hit is of a normal speed; however, unless you're on bearing
+with the opposing VR, it has a tendency to miss completely.
+
+   RW (14.3%)   - Pokes its Beam Sword downwards into the fallen
+                    opposing VR.
+
+[3.2.7 Dashing CC]
+
+Temjin's dashing CC is odd in that its LW and RW dashing CCs are not
+symmetrical; instead, they represent different ends of the animation
+spectrum. The LW dashing CC is much more pronounced and sweeps in a wide
+arc. The RW dashing CC is very quick and sweeps in a tight angle.
+
+   LW (330)     - Sweeps its Beam Sword in an arc left of its body.
+   RW (330)     - Sweeps its Beam Sword in an arc right of its body.
+   CW (456)     - Swings its Beam Sword above its head and down into the
+                    opposing VR. (Ground-Hit Capable)
+
+//-------------------------//
+//  3.3. Chain and Combos  //
+//-------------------------//
+
+Temjin's chains are extremely simple two-hits which cause reasonable damage.
+Use one of Temjin's Cr cancels instead of the second hit in a two-hit chain;
+the Cr gives more damage and is unblockable.
+
+[3.3.1 Basic Chains]
+
+   LW  (396)    +Cr (286)  DOR  - Left-Right Quick Slice (Drop Kick Trip)
+    LW (638)    +Cr (682)       - Right-Left Quick Slice ("")
+    RW (583)    +Cr (638)       - Poke (Low Poke)
+    CW    NA    +Cr (770)       - (Unblockable Left-Right Slice)
+
+   RW  (363)    +Cr (242)  TEM  - Poke (Low Poke)
+    LW (605)    +Cr (649)       - Left-Right Quick Slice (Drop Kick Trip)
+    RW (550)    +Cr (605)       - Elbow Smash (Low Poke)
+    CW    NA    +Cr (737)       - (Unblockable Left-Right Slice)
+
+[3.3.2 Swallow's Tail]
+
+Temjin's swallow's tails, similar to Temjin's other CC types, are straight
+forward and normal. The RW dashing CC requires more stringent timing than
+the LW due to their varying arcs.
+
+   LW  (396)  DOR   - Left-Right Quick Slice
+    LW (726)        - Sweeps its Beam Sword in an arc left of its body.
+    RW (726)        - Sweeps its Beam Sword in an arc right of its body.
+    CW (852)        - Swings its Beam Sword above its head and down into the
+                        opposing VR.
+
+   RW  (363)  TEM   - Poke
+    LW (693)        - Sweeps its Beam Sword in an arc left of its body.
+    RW (693)        - Sweeps its Beam Sword in an arc right of its body.
+    CW (819)        - Swings its Beam Sword above its head and down into the
+                        opposing VR.
+
+[3.3.3 Shinku(u) Cancel]
+
+Temjin has, arguably, has the "fairest" shinkuus in the game.
+
+The CW shinku(u) is restricted to being an attack extension because of its
+immediate knockdown effect. Due to the CW speed, it is much more effective
+as a shinku(u) counter.
+
+Temjin's RW shinku(u) also works as an attack extension (+ counter) and has
+the added feature of being a ground-hit shinku(u). However, both these usages
+are not are effective as the other two weapons offer and so the RW shinku(u)
+is often ignored.
+
+Finally, the LW shinkuu fullest effect applies only to Dordray. Because,
+when Dordray has accumulated no stun, it isn't knocked down by a full LW
+hit, a good Temjin player can work in a normal shinku(u) for 792 points of
+damage against a Dordray opponent!
+
+   LW (792)     Easy    Omni    - Cancel when Beam Sword is between 10-11:00
+                                    (pre-hit) or 1-2:00 (post-hit) position.
+   RW (726)     VHard   Omni    - Cancel when Beam Sword is at furthest
+                                    extent.
+
+//-----------------------//
+//  3.4. LT Projectiles  //
+//-----------------------//
+
+Temjin's LTCW variations are the most damaging LT variation, long-range.
+Depending on your angle in CC, however, it would be wiser to use the LTLW or
+LTRW for their increased stun properties.
+
+   LW (BBD)     +Cr (ANG)  DAM  - Bouncing Bomb (Launch Bomb)
+   RW (DOR)     +Cr (GRY)  NDAM - Tapping Beam (Crouching Tapping Beam)
+   CW (BBD)     +Cr (BBD)  DAM  - Fin Beam Sword (Crouching Fin Beam Sword)
+
+=============================================================
+Part IV: Basic Strategies
+=============================================================
+
+=============================================================
+Part V: Advanced Strategies
+=============================================================
+
+=============================================================
+Appendix 1: Tables
+=============================================================
+
+//------------------------//
+//  A1.1. Health Matchup  //
+//------------------------//
+
+//------------------------//
+//  A1.2. Knockdown/Stun  //
+//------------------------//
+
+The following is the averaged knockdown rankings of all the VRs. Once
+definitive knockdown values are released, these will make more sense. For
+the moment, understand that Temjin is knocked down easier than Bal-Bados but
+is more stable than Fei-Yen.
+
+Sorted Cumulative Rankings:
+Dordray         57 
+Apharmd B       43
+Grys-Vok        41
+Raiden          41
+Apharmd S       39
+Bal-Bados       36
+Temjin          35
+Fei-Yen         25
+Angelan         25
+Specineff       25
+Cypher          25
+
+=============================================================
+Appendix 2: Fin
+=============================================================
+
+It is perfectly acceptable to send me e-mail with questions about
+Virtual-On... however, I would suggest checking out VO.net's and GameFAQ's
+forums before coming to me.
+
+//-------------------------//
+//  A2.1. Further Reading  //
+//-------------------------//
+
+Auburn Virtual On Crew:
+    http://www.auburnvo.org/
+
+Virtual On .Net
+    http://www.virtualon.net/
+
+Oratan:
+    http://www.oratan.com/
+
+GameFAQs:
+    http://www.gamefaqs.com/
+
+Hong Kong VR Team:
+    http://luvluvfeiyen.tripod.com/
+
+Virtual On (Sega) (Japanese):
+    http://virtual-on.dricas.ne.jp/oratan/hotstart/
+
+//-----------------//
+//  A2.2. Credits  //
+//-----------------//
+
+Sam:
+    Translating the weapons data from "The Book of Cyber Space Divers." It
+    was damn helpful, even after I had direct access to the health values.
+
+Kirk:
+    For forcing me into learning Temjin in the first place.
+
+-eof-

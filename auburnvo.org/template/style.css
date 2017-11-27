@@ -1,0 +1,28 @@
+body { margin: 0; color: #000000; background-color: #FFFFFF; }
+img { border: 0; }
+
+/*  Original setup - with the invalid negative point sizes.
+a:hover { color: #999999; text-decoration: underline; font-size: -2px; font-variant: small-caps}
+a:link { color: #999999; font-size: -2px; font-variant: small-caps; text-transform: none}
+a:visited { color: #336699; font-size: -2px; font-variant: small-caps; text-decoration: underline}
+*/
+
+a:hover { color: #999999; text-decoration: underline; font-size: smaller; font-variant: small-caps }
+a:link { color: #999999; font-size: smaller; font-variant: small-caps; text-transform: none }
+a:visited { color: #336699; font-size: smaller; font-variant: small-caps; text-decoration: underline }
+
+TABLE .sidebar { color: #CCCCCC; background-color: black; width: 100%; }
+TABLE .sidebar tr { background-color: #732626; }
+TABLE .sidebar a:hover { color: #999999; }
+TABLE .sidebar a:link { color: #999999; }
+TABLE .sidebar a:visited { color: #4388CC; }
+
+TR .datelist td { text-align: right; }
+
+/* Original setup - no inheritance.
+.sidebar a:hover { color: #999999; text-decoration: underline; font-size: -2px; font-variant: small-caps}
+.sidebar a:link { color: #999999; font-size: -2px; font-variant: small-caps; text-transform: none}
+.sidebar a:visited { color: #4388CC; font-size: -2px; font-variant: small-caps; text-decoration: underline}
+*/
+
+.banner .middle { background-image: url(/images/layout/bg_top.gif); }

@@ -1,0 +1,13 @@
+<!-- template/sidebar-end.shtml -->
+            </td>
+
+            <!-- Cool color shift -->
+            <td width="11%" bgcolor="#802C2C"> 
+              &nbsp;
+            </td>
+            <td width="15%" bgcolor="#B88383"> 
+              &nbsp;
+            </td>
+          </tr>
+        </table>
+      </td>

@@ -1,0 +1,1169 @@
+=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=
+A In-Depth Guide to Close Combat for
+Cybertroopers Virtual-On: Oratorio Tangram
+Versions 5.4 and above
+Release: !!! release info
+Written by: Scott Robinson <scott_vo@dsn.itgo.com>
+=============================================================
+
+Note
+-----
+This should be displayed in mono-space format.
+The dots and numbers should line up.
+
+..........
+1234567890
+
+//---------------//
+//  Legal Stuff  //
+//---------------//
+
+Cybertroopers Virtual-On: Oratorio Tangram and its characters are the
+property of Sega of Japan. The above authors wrote this guide. We, the
+authors, are not affiliated with Sega, and this guide is not official in any
+way. We wrote this guide because we felt there wasn't enough complete
+Virtual-On information on the Internet. This guide is distributed under the
+Open Content license (http://www.opencontent.org/) with the addition that
+commercial redistribution, republication, or reproducation may be possible
+with the explicit permission of the authors.
+
+Essentially, if you want to make money off this, we want to hear about it.
+
+//-------------------//
+//  Version History  //
+//-------------------//
+
+v1.0 - !!! insert date here
+Guide's first version complete. It took a year of screwing around, Force is
+already released, but you still love me? Right? 5.4 is making its rounds
+through the States, so this will hopefully be even more useful.
+
+=============================================================
+
+Part I: Introduction to ...
+   1.1 ... Virtual-On
+    .2 ... Virtual-On's control system
+    .3 ... close combat
+    .4 ... chains and combos
+    .5 ... cancelling
+    .6 ... this guide
+
+Part II: The Temjin - MBV-707-G
+Part III: The Raiden - HBV-502-H8 (RVR-75)
+Part IV: The Fei-Yen Kn - RVR-14
+Part V: The Bal-series - XBV-819-tr4
+Part VI: The Grys-Vok - SAV-326-D/9
+Part VII: The Apharmd B - RVR-39
+Part IIX: The Apharmd S - RVR-33
+Part IX: The Specineff - RVR-87
+Part X: The Cypher - RVR-42
+Part XI: The Angelan - SGV-417-I
+Part XII: The Dordray - RVR-68
+    .1 Introduction
+    .2 Basic CC
+    .3 Chains and Combos
+    .4 LT Projectiles
+
+Part XIIV: Basic Strategies
+    .1 Chain Breaking
+    .2 Guard Breaking
+    .3 Counters
+
+Part XIV: Advanced Strategies
+   !!! Fill this in!
+
+Appendix 1: Tables
+    .1 Stun tables
+
+Appendix 2: Fin
+  A2.1 Further reading
+    .2 Credits
+    .3 Devotion
+
+=============================================================
+Part I: Introduction to ...
+=============================================================
+
+//-----------------------//
+//  1.1. ... Virtual-On  //
+//-----------------------//
+
+Sega's Cybertroopers Virtual On: Oratorio Tangram is the sequel to
+Cybertroopers Virtual-On: Operation Moongate. Virtual-On is a 3D PvP "mech"
+fighting game spanning over four gaming systems. It is arguably one of the
+deeper fighting games and is alone in its genre due to its high quality.
+
+More information on Virtual-On is available in the Further Reading (A.1)
+section.
+
+//----------------------------------------//
+//  1.2. ... Virtual-On's control system  //
+//----------------------------------------//
+
+This guide assumes you have basic comprehension of Virtual-On game-play.
+
+[1.2.1 10-key notation]
+
+       789
+    WT 456 TW
+       123
+
+    W   Stick-side Weapon Trigger
+    T   Stick-side Turbo Trigger
+
+Example:
+
+  6.6T      Both sticks right while pressing right stick turbo trigger.
+  8W.9T     Left stick foward and left stick forward diagonally right while
+             pressing left weapon trigger and right turbo trigger.
+
+[1.2.2 Twin Stick control]
+
+    O-- O--         4.4     Both sticks left; VR walks left
+    O--  O        4.5/5.4   One stick left; VR shuffles left
+
+    --O --O         6.6     Both sticks right; VR walks right
+     O  --O       5.6/6.5   One stick right; VR shuffles left
+
+     |   |          2.2     Both sticks back; VR walks backwards
+     O   O        2.5/5.2   One stick back; VR shuffles backwards
+
+     O   O          8.8     Both sticks forward; VR walks forwards
+     |   |        8.5/5.8   One stick forward; VR shuffles forwards
+
+     O   |          8.2     Both sticks in inverted directions;
+     |   O          2.8      rotation to the direction of the downward stick
+
+    O-- --O         4.6     Both sticks apart; VR jumps (J)
+
+    --O O--         6.4     Both sticks inward; Guard (G) / Crouch (Cr) / Guard
+                             Buffer (Gr)
+
+    Right Turbo     5.5T    Right Turbo (RT) / Dash (D) / Dash Cancel
+    Left Turbo      5T.5    Left Turbo (LT) / Dash (D) / Dash Cancel
+    Both Turbo      5T.5T   Both Turbo (BT)
+
+    Right Trigger   5.5W    Right Weapon (RW)
+    Left Trigger    5W.5    Left Weapon (LW)
+    Both Triggers   5W.5W   Center Weapon (CW)
+
+[1.2.3 Dreamcast control]
+
+    Digital Pad Right   VR walks right
+    Digital Pad Left    VR walks left
+    Digital Pad Down    VR walks backwards
+    Digital Pad Up      VR walks forwards
+
+    Analog Up/Down      Start Button
+    Analog Left/Right   Rotate VR Left Right
+
+    Start Button        Pauses/Options for Game
+
+    A Button            Guard (G) / Crouch (Cr) / Guard Buffer (Gr)
+    B Button            Right Turbo (RT) / Dash (D) / Dash Cancel
+    X Button            Left Turbo (LT) / Dash (D) / Dash Cancel
+    Y Button            Jump (J)
+
+    Right Trigger       Right Weapon (RW)
+    Left Trigger        Left Weapon (LW)
+    Both Triggers       Center Weapon (CW)
+
+[1.2.4 Command Notation]
+
+[t] turbo command sets:
+    RT                  Right Turbo type attacks
+    LT                  Left Turbo type attacks
+    BT                  Both Turbo simultaneously type attacks
+
+[w] weapon command sets:
+    RW                  Right Weapon
+    LW                  Left Weapon
+    CW                  Center Weapon
+
+[m] modifier command sets:
+    Cr                  Guard (G) / Crouch (Cr) / Guard Buffer (Gr)
+    J                   Jumping
+    D                   Dashing
+
+Legal RANGEd command chording:
+    [w]
+    [t][w]
+    [m][w]
+    [m][t][w]
+
+Legal MELEE command chording:
+    [w]                 A normal melee attack. (Guard-able)
+    Cr[w]               A crouching attack. (UnBLOCKable and Knockdown)
+    [m]LT[w]            A projectile attack.
+    RT[w]               A turbo attack. (UnGUARDable and Knockdown)
+    Gr[w]               A Guard-Reversal attack. (Guard-able)
+
+Abbreviations:
+    V.Ar                Virtual Armor
+    CC                  Close Combat
+    QS                  Quick Step
+    QS-CC               Quick Step Close Combat
+    VOOT                Virtual On: Oratorio Tangram
+    VOOM                Virtual On: Operation Moongate (the prequel)
+
+//-------------------------//
+//  1.3. ... close combat  //
+//-------------------------//
+
+The original Virtual-On (VO), Operation Moongate, was a cut down version of
+what Juro Watari originally wanted; he was limited by the hardware. One of
+the symptoms of the trimming process was that mid to long-range combat had
+serious damage potential. The game was unbalanced in Watari's mind. In
+Oratorio Tangram, Watari-san had the opportunity to fix this problem. Thus,
+the concept of V.Armour was formed. It encouraged the players of a VO game
+to come closer and play mid-range and, inevitably, close-range.
+
+Close combat (CC) is the fastest, most confusing, and most complex aspect of
+the game. The damage potential in CC is the greatest in the entire game;
+however, it is that potential which scares most people away from the depths
+of CC.
+
+[1.3.1 Basic Weapon Strategy]
+
+When it comes down to the technical pieces of CC, it's all about pressing
+the correct button at the correct time. With that in mind, the basic button
+chording sequences allowed in CC are slightly different than long-range:
+
+   [w]                  A normal attack. (Guard-able)
+   Cr[w]                A crouching attack. (UnBLOCKable, Knockdown and
+                         Ground-Hit)
+   RT[w]                A turbo attack. (UnGUARDable, Knockdown and
+                         Ground-Hit)
+   Gr[w]                A Guard-Reversal attack. (Guard-able)
+
+The difference between BLOCKing and GUARDing (the same action) is that a
+successful guard receives minimal damage (0.1%-5%); however: a) with a
+broken block, you receive the full damage of the attack and are knocked
+down. b) with a broken guard, you receive your guard damage and are knocked
+down.
+
+[1.3.2 Chains]
+
+Instead of Street Fighter-esqe unblockable-once-started combinations, the
+creators of Virtual-On opted for a chain system. A Virtual-On chain is a
+series of CC attacks which have a minimal delay between them. After the
+first hit in a CC chain, the animations of the continued CC attacks are
+usually quicker and different than the normal variations.
+
+Virtual-On's CC chains are still blockable between the attacks, and are slow
+enough for most VRs' Guard-Reversals, so be cautious. Also, not all VRs will
+remain standing for the entirity of a CC chain. CC chains, treated by the
+game like a normal standing attack, are also completely cancellable.
+
+[1.3.3 The Quick-Step]
+
+Positioning was quite limited in VOOM. The mirage, yatsuhashi, and
+positional circle-slices were your only ways of positioning yourself for the
+kill. In VOOT, your situation has been significantly improved.
+
+The Quick-Step (QS) is a set distance rotation movement only available in CC
+range. This means that the closer you are to your opponent, the higher your
+rotation is around them. At the closest range, a QS rotates you 180 degrees
+(3.14 radians) behind your opponent. However, your rotation can vary
+anywhere from almost 15 degrees (0.25 radians) to 180 degrees.
+
+The QS movement is omni-directional. You can QS backwards as a way to change
+your range quickly. You can QS forward and forward-diagonally to rotate and
+re-orient simultaneously. Each QS variation is unique and only practice will
+help you develop a sense of style. The QS is performed:
+
+   (LT_RT) ~ (stick movement)
+
+For those who are a bit confused, press the right or left turbo and then
+press the direction you wish to QS. This differs from dash activation; you
+press the stick movement before the turbo to activate a dash.
+
+[1.3.4 Quick-Step Close-Combat]
+
+In VOOM, a circle-slice was an auto-homing set distance rotation attack
+which caused your opponent to "lose" their guard while you attacked them.
+They had the choice to either jump, re-guard, or dash. In VOOT, Quick-Step
+Close-Clombat (QS-CC) has replaced the circle-slice.
+
+Activation is the same as the normal QS, except with the stick movement you
+include a LW or RW activation.
+
+   (LT_RT) ~ (stick movement left or right) + (LW_RW)
+
+QS-CC can only be directed left or right. Also, unlike the circle-slice in
+VOOM, the QS-CC doesn't auto-home to your opponent.
+
+[1.3.5 Jumping Close-Combat]
+
+Jumping Close-Combat can be used as a reversal to a uncancellable (or slowly
+canceled) CC attack. When you jump, your VR auto-homes to your opposing
+VR and then brings a CC attack crashing down upon the opponent's head.
+
+    J ~ [w]
+
+Jumping Close-Combat is guardable and ground-hit capable.
+
+[1.3.6 Dashing Close-Combat]
+
+Dashing Close-Combat is a guardable CC variation which can only be activated
+during a forward or forward-diagonal dash:
+
+    (stick movement opposite of dashing direction) + [w]
+
+This means you either pull your stick directly backwards or backwards
+diagonally in the opposite direction of the current dashing direction. Which
+stick you pull decides which side you attack on. Also, dashing CC allows for
+rotation; rotate in dashing CC to maximize your CC arc. Some dashing CC
+attacks are ground-hit capable.
+
+[1.3.7 Guard Reversals]
+
+A Guard Reversal is almost exactly what its sounds like. While being
+attacked, you can guard an attack. However, unless you perform a Guard
+Reversal, the opponent attacking will happily use a chain, an unblockable
+crouch attack, or even Quick-Step CC in an attempt to break your guard.
+
+A Guard Reversal is the quickest type of attack available in VOOT. It is
+performed by:
+
+    Gr . [w]
+
+Guard Reversal timing is very stringent. You must be IN your guard animation
+before you can perform a Guard Reversal; otherwise, you will perform an
+unblockable crouch attack. A Guard Reversal can also only be done with your
+RW or LW. No matter what you may ever hear or think, there is NO GrCW.
+
+Most Guard Reversals home very well (almost 180 degree/3.14 radian rotation
+in some VRs) and do modest damage. However, they are uncancelable and often,
+with lighter VR Guard Reversals, do not cause a knockdown.
+
+//-----------------------//
+//  1.5. ... cancelling  //
+//-----------------------//
+
+Every CC variation is cancellable into another move. However, not every
+variation is cancellable by the same actions or throughout its entire
+animation. The following chart is a guide to CC cancellation. Keep in mind
+one can continue the cancels into infinite loops of inaction; however,
+performing a series of cancels, while undoubtly looking cool, has no
+tactical advantage.
+
+!!! cancellability chart here
+
+//-----------------------//
+//  1.6. ... this guide  //
+//-----------------------//
+
+All damages in this guide (unless otherwise specified) are performed against
+a 0% V.Armour Dordray on Space Dock after the initial damage boost. Dordray
+was selected because he has the best center of gravity.
+
+If there are any corrections, please feel free to send them in!
+
+=============================================================
+Part II: The Temjin - MBV-707-G
+=============================================================
+
+//---------------------//
+//  2.1. Introduction  //
+//---------------------//
+
+Often referred to as the "Ryu" of the Virtual-On series, Temjin is a very
+aggressive "power" VR. Heavily dependent upon its Long Launcher and using
+its Power Bomb for cover, Temjin can cause serious damage in both medium
+range and CC.
+
+In CC, Temjin's basic chains are extremely easy to master; however, they
+have very little variation. Its basic CC range is extremely long and well
+worth exploiting. The LW and QS-CC are definitely staples.
+
+In short, Temjin is basically a middle-tier learners VR. You can use it to
+pick up the basics of Virtual-On medium and long range combat.
+
+//-----------------//
+//  2.2. Basic CC  //
+//-----------------//
+
+[2.2.1 Basic Variations]
+
+   LW (396)   +Cr (286) 59.9m   - Left-Right Quick Slice (Drop Kick Trip)
+   RW (363)   +Cr (242) 69.9m   - Poke (Low Poke)
+   CW (429)   +Cr (374) 99.9m   - Left-Right Slice (Unblockable Left-Right
+                                    Slice)
+
+[2.2.2 Turbo Variations]
+
+RT+
+   LW (451)     - Power Punch
+   RW (478)     - Drop flip Right-Left Slice
+   CW (500)     - Behind the back Left-Right Slice
+
+[2.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +------275------+
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+      \---------------/
+
+1 - Temjin circles around the opposing VR, slicing with its Beam Sword.
+
+[2.2.4 Jumping CC]
+
+Temjin jumps and swings its Beam Sword above its head and smashes it down
+upon the opposing VR.
+
+ J+
+   LW (440)     - More homing, more damage!
+   RW (407)
+   CW (407)
+
+[2.2.5 Ground-Hit CC]
+
+Temjin's ground-hit is of a normal speed; however, unless you're on bearing
+with the opposing VR, it has a tendency to miss completely.
+
+   RW (14.3%)   - Pokes its Beam Sword downwards into the fallen
+                    opposing VR.
+
+[2.2.6 Dashing CC]
+
+Temjin's dashing CC is odd in that its LW and RW dashing CCs are not
+symmetrical; instead, they represent different ends of the animation
+spectrum. The LW dashing CC is much more pronounced and sweeps in a wide
+arc. The RW dashing CC is very quick but also sweeps in a very tight angle.
+
+   LW (330)     - Sweeps its Beam Sword in an arc left of its body.
+   RW (330)     - Sweeps its Beam Sword in an arc right of its body.
+   CW (456)     - Swings its Beam Sword above its head and down into the
+                    opposing VR. (Ground-Hit Capable)
+
+//-------------------------//
+//  2.3. Chain and Combos  //
+//-------------------------//
+
+Temjin's chains are extremely simple two-hits which cause reasonable damage.
+Use one of Temjin's Cr cancels instead of the second hit in a two-hit chain;
+the Cr gives more damage and is unblockable.
+
+[2.3.1 Basic Chains]
+
+   LW  (396)    +Cr (286)  DOR  - Left-Right Quick Slice (Drop Kick Trip)
+    LW (638)    +Cr (682)       - Right-Left Quick Slice ("")
+    RW (583)    +Cr (638)       - Poke (Low Poke)
+    CW    NA    +Cr (770)       - (Unblockable Left-Right Slice)
+
+   RW  (363)    +Cr (242)  TEM  - Poke (Low Poke)
+    LW (605)    +Cr (649)       - Left-Right Quick Slice (Drop Kick Trip)
+    RW (550)    +Cr (605)       - Elbow Smash (Low Poke)
+    CW    NA    +Cr (737)       - (Unblockable Left-Right Slice)
+
+[2.3.2 Swallow's Tail]
+
+Temjin's swallow's tails, similar to Temjin's other CC types, are straight
+forward and normal. The RW dashing CC requires more stringent timing than
+the LW due to their varying arcs.
+
+   LW  (396)  DOR   - Left-Right Quick Slice
+    LW (726)        - Sweeps its Beam Sword in an arc left of its body.
+    RW (726)        - Sweeps its Beam Sword in an arc right of its body.
+    CW (852)        - Swings its Beam Sword above its head and down into the
+                        opposing VR.
+
+   RW  (363)  TEM   - Poke
+    LW (693)        - Sweeps its Beam Sword in an arc left of its body.
+    RW (693)        - Sweeps its Beam Sword in an arc right of its body.
+    CW (819)        - Swings its Beam Sword above its head and down into the
+                        opposing VR.
+
+[2.3.3 Shinku(u) Cancel]
+
+Temjin has, arguably, has the "fairest" shinkuus in the game. Its CW shinkuu
+is restricted to being an attack extension. Its RW shinkuu has great
+countering and ground-hit effects. Finally, the LW shinkuu fullest effect
+applies only to Dordray.
+
+   LW (792)     Easy    Omni    - Cancel when Beam Sword is between 10-11:00
+                                    (pre-hit) or 1-2:00 (post-hit) position.
+   RW (726)     VHard   Omni    - Cancel when Beam Sword is at furthest
+                                    extent.
+
+//-----------------------//
+//  2.4. LT Projectiles  //
+//-----------------------//
+
+Temjin's LTCW variations are the most damaging LT variation, long-range.
+Depending on your angle in CC, it would be wiser to use the LTLW or LTRW for
+their stun properties.
+
+   LW (BBD)     +Cr (ANG)  DAM  - Bouncing Bomb (Launch Bomb)
+   RW (DOR)     +Cr (GRY)  NDAM - Tapping Beam (Crouching Tapping Beam)
+   CW (BBD)     +Cr (BBD)  DAM  - Fin Beam Sword (Crouching Fin Beam Sword)
+
+=============================================================
+Part III: The Raiden - HBV-502-H8 (RVR-75)
+=============================================================
+
+//---------------------//
+//  3.1. Introduction  //
+//---------------------//
+
+If Temjin is the "Ryu" of Virtual-On, then Raiden is M.Bison. Arguably one
+of the most powerful VR in middle and long-range combat, Raiden is not a VR
+known for its extrodinary CC abilities but rather for its Screw Lasers.
+
+However, Raiden can definately pack a serious punch and shock. Its CC
+weapons have average speed and do enough damage to cause any player to
+re-consider extended CC. Raiden's LW chains, while not the best in the
+homing department, are winners in the damage world. Combined with a
+COMBO-able instant-knockdown RW, Raiden's CC lends more to a hit and run
+strategy.
+
+Consider this section of the guide to be a good filler for a VR which isn't
+designed for CC.
+
+//-----------------//
+//  3.2. Basic CC  //
+//-----------------//
+
+[3.2.1 Basic Variations]
+
+   LW (308)   +Cr (308) 74.9m   - Punch (Hyper Bazooka Bash)
+   RW (385)   +Cr (264) 64.9m   - Hyper Bazooka Slap (Hyper Bazooka Leg Knee
+                                    Bash)
+   CW (500)   +Cr (418) 34.9m   - Electric Shock (Hyper Bazooka Lift)
+
+
+[3.2.2 Turbo Variations]
+
+RT+
+   LW (286)     - Shoulder Ram
+   RW (489)     - Hyper Bazooka Slam
+   CW (500)     - Advancing Electric Shock
+
+[3.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +------319------+
+   LW |   2   |   2   |
+   RW |   2   |   2   |
+      \---------------/
+
+1 - Rotates around opposing VR and gut-punches them.
+2 - Rotates around opposing VR and slaps them with its Hyper Bazooka.
+
+[3.2.4 Jumping CC]
+
+Using its Left and Right Weapons, Raiden jumps and slams its Hyper Bazooka
+into the opposing VRs head. When using its Center Weapon, Raiden jumps and
+"butt-bounces" into the opposing VR.
+
+ J+
+   LW (407)     - Raiden jumps and slams its Hyper Bazooka on to the
+                    opposing VRs head.
+   RW (407)     - "
+   CW (484)     - Raiden jumps and "butt-bounces" on to opposing VR.
+
+[3.2.5 Ground-Hit CC]
+
+   RW (14.3%)   - Slams its Hyper Bazooka into the fallen opposing VR.
+
+[3.2.6 Dashing CC]
+
+   LW (412)     - Sweeps its Hyper Bazooka in an arc left of its body.
+   RW (412)     - Sweeps its Hyper Bazooka in an arc right of its body.
+   CW (500)     - Swings its Hyper Bazooka in an uppercut motion.
+
+//-------------------------//
+//  3.3. Chains and Combos //
+//-------------------------//
+
+Raiden's RW doesn't truly chain. The first RW hit knocks down, but the moves
+can chain. The listed damages are for the moves alone. Add guard damage in a
+"true" chain. :le sigh:
+
+[3.3.1 Basic Chains]
+
+   LW (308)     +Cr (308)  DOR  - Punch (Hyper Bazooka Bash)
+    LW (434)    +Cr (616)       - Punch (Hyper Bazooka Bash)
+    RW (517)    +Cr (572)       - Hyper Bazooka Slap (Hyper Bazooka Leg Knee
+                                    Bash)
+    CW    NA    +Cr (726)       - (Hyper Bazooka Lift)
+
+   RW  (385)    +Cr (264)  ***  - Hyper Bazooka Slap (Hyper Bazooka Leg
+                                    Knee Bash)
+    LW (126)    +Cr (308)       - Punch (Hyper Bazooka Bash)
+    RW (126)    +Cr (264)       - Left-Right Hyper Bazooka Slap (Hyper
+                                    Bazooka Leg Knee Bash)
+    CW    NA    +Cr (418)       - (Hyper Bazooka Lift)
+
+[3.3.2 Swallow's Tail]
+
+[3.3.3 Shinku(u) Cancel]
+
+//-----------------------//
+//  3.4. LT Projectiles  //
+//-----------------------//
+
+Raiden has a limited set of options in reference to CC LT variations. He has
+only three useful options which can be used in two different situations.
+(one does not preclude the other)
+
+The CrLTLW is both damaging and offers excellent visual cover. It also has
+very forgiving attack angles requiring you only to be within effective CC
+range.
+
+The LTRW and CrLTRW, while not damaging, both have stun properties and can
+stop an opposing VRs attack and break their guard. The LTRW has more
+forgiving attack angles and has a faster activation time. However, the
+CrLTRW offers much better stun abilities. Be aware of your opponent's attack
+angle, because the CrLTRW is best effective in the 12-2:30 arc.
+
+Raiden's other CC LT variations are mostly useless. The LTLW does not deal
+as much damage as the CrLTLW and is less cancellable. The LTCW variations do
+not actually hit in CC!
+
+   LW (v20%)    +Cr (v28%)  DAM  NSTUN  - Bouncing Electric Spark (Aerial Electric
+                                           Spark)
+   RW (v19%)    +Cr (v28%) NDAM  STUN   - V.Bazooka (Crouching V.Bazooka)
+
+=============================================================
+Part IV: The Fei-Yen Kn - RVR-14
+=============================================================
+
+//---------------------//
+//  4.1. Introduction  //
+//---------------------//
+
+She's stronger, faster, and more productive with a butt bounce included in
+the deal. Magic song and crazy hearts everywhere makes Fei-Yen Kn a deadly VR.
+
+In the Close Combat realm, Fei-Yen Kn has speed and style to make up for any
+damage or (worse yet) armour difficulties. Not a strong VR, but definately
+putting out more than you would guess from her size. Her chains are quick
+enough to get two hits in and then try to cause the opposing VR to lose its
+indicators.
+
+Fei-Yen Kn can be a rush to play and definately an exercise in ones wits and
+resourcefulness.
+
+//-----------------//
+//  4.2. Basic CC  //
+//-----------------//
+
+[4.2.1 Basic Variations]
+
+   LW (23.7%)   +Cr (25.4%) 79.9m   - Left-Right Slice (Leg Sweep)
+   RW (29.7%)   +Cr (22.0%) 54.9m   - Right-Left Slice (Leg Slice)
+   CW (31.4%)   +Cr (31.4%) 94.5m   - One-Two Bop (Leg Sweep)
+
+[4.2.2 Turbo Variations]
+
+RT+
+   LW (36.0%)       - Buns of Steel / Butt Bounce / Heart Fart
+   RW (24.6%)       - Slap
+   CW (38.5%)       - Flip
+
+[4.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +-----18.9%-----+
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+      \---------------/
+
+1 - Fei-Yen Kn rotates around her opponent and slices them with her Rapier.
+
+[4.2.4 Jumping CC]
+
+Fei-Yen Kn jumps and slams her sword Sword into the opposing VRs head.
+
+ J+
+   LW (36.4%)
+   RW (34.7%)
+   CW (38.1%)
+
+[4.2.5 Ground-Hit CC]
+
+   RW (14.3%)       - Pushs her sword into the fallen opposing VR.
+
+[4.2.6 Dashing CC]
+
+   LW (25.4%)       - Sweeps her Sword in an arc left of her body.
+   RW (25.4%)       - Sweeps her Sword in an arc right of her body.
+   CW (37.3%)       - Swings her sword above her head and down into the opposing
+                       VR. (Ground-Hit Capable)
+
+//-------------------------//
+//  4.3. Chains and Combos //
+//-------------------------//
+
+Fei-Yen Kn has some extremely deadly combos. Her combos are fast and homing
+enough to make any VR pilot think twice about going toe-to-toe. However, be
+aware of which direction you enter with your slice, because it can impact
+how quickly your CC hits. Combined quick QS and generous helpings of Guard
+Reversals, and Fei-Yen Kn is a VR which can quickly deal some damage.
+
+Unfortunately, generally, she's not considered a powerful VR. She doesn't
+take damage as well as she can give, and Cypher is definately better CC
+reach range-wise.
+
+Enter CC with a solid strategy, however, and you will do well.
+
+[4.3.1 Basic Chains]
+
+   LW (23.7%)   +Cr (25.4%)     - Left-Right Slice (Leg Sweep)
+    LW (37.3%)  +Cr (49.1%)     - Right-Left Slice (Leg Sweep)
+    RW (38.1%)  +Cr (54.3%)     - Right-Left Slice (Leg Slice)
+    CW    NA    +Cr (55.0%)     - (Leg Sweep)
+
+   RW (29.7%)   +Cr (22.0%)     - Right-Left Slice (Leg Slice)
+    LW (43.2%)  +Cr (55.0%)     - Left-Right Slice (Leg Sweep)
+    RW (44.0%)  +Cr (51.7%)     - Left-Right Slice (Leg Slice)
+    CW    NA    +Cr (61.0%)     - (Leg Sweep)
+
+//-----------------------//
+//  4.4. LT Projectiles  //
+//-----------------------//
+
+!!! do fei-fei's LT projectiles
+
+   LW (v20%)    +Cr (v28%)  DAM  NSTUN  - Bouncing Electric Spark (Aerial Electric
+                                           Spark)
+   RW (v19%)    +Cr (v28%) NDAM  STUN   - V.Bazooka (Crouching V.Bazooka)
+
+//-------------------------//
+//  4.5. Shinku(u) Cancel  //
+//-------------------------//
+
+Fei-Yen Kn's Shinku(u) cancel is often referred to as the LBA
+(LuvluvBreastAttack). It was so named due to how it looks. ;-)
+
+   LW (47.4%)   Medium  Omni        - Cancel when her Rapier at 11:00
+                                       (pre-hit) or 12-5:00 (post-hit)
+                                       position.
+   RW (40.7%)   Easy    Omni        - Cancel when her Rapier is between
+                                       3:00-1:00 (pre-hit) at 12:00
+                                       (post-hit) position.
+                                           
+   CW (37.3%)   Easy    Tricky      - Cancel after first bop and before
+                                       second bop. Remain walking (but no
+                                       LBA) until invincibility wears off.
+
+=============================================================
+Part V: The Bal-series (XBV-819-tr4)
+=============================================================
+
+//---------------------//
+//  5.1. Introduction  //
+//---------------------//
+
+Bal-series is an interesting VR CC-wise.
+
+!!! bal series intro
+
+//-----------------//
+//  5.2. Basic CC  //
+//-----------------//
+
+[5.2.1 Basic Variations]
+
+   LW (31.6%)   +Cr (23.0%) 64.9m   - Drill Claw (Low Drill Claw)
+   RW (25.8%)   +Cr (14.4%) 84.9m   - Dual Lances (Lance Knee-Buster)
+   CW (37.4%)   +Cr (27.8%) 59.9m   - Dual Claws (Dual Thigh Claws)
+
+[5.2.2 Turbo Variations]
+
+RT+
+   LW (33.5%)       - Quad Claws
+   RW (43.1%)       - Tekken
+   CW (41.2%)       - Spinning Lances
+
+[5.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +-----26.3%-----+
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+      \---------------/
+
+1 - Bal-series rotates around opposing VR and hugs them a Dual Lance attack.
+
+[5.2.4 Jumping CC]
+
+Bal-series forms a "Y" ala YMCA dance and slams a Drill Claw on to the
+opposing VR.
+
+ J+
+   LW (39.3%)
+   RW (37.4%)
+   CW (42.1%)
+
+[5.2.5 Ground-Hit CC]
+
+   LW (14.3%)       - Dips its Energy Claw into the fallen opposing VR body.
+
+[5.2.6 Dashing CC]
+
+   LW (25.9%)       - Performs a Dual Lances hug to the left of its body.
+   RW (43.1%)       - Does an imitation of a shrimp and waves an Energy Lance
+                       to the right of its body.
+   CW (42.1%)       - Cartwheels with all four Energy Lances extended.
+
+//-------------------------//
+//  5.3. Chains and Combos //
+//-------------------------//
+
+!!! bal series chain intro
+
+[5.3.1 Basic Chains]
+
+   LW (31.6%)   +Cr (23.0%)     - Drill Claw (Low Drill Claw)
+    LW (48.8%)  +Cr (54.6%)     - Right Drill Claw (Low Drill Claw)
+    RW (47.9%)  +Cr (46.0%)     - Dual Lances (Lance Knee-Buster)
+    CW    NA    +Cr (59.4%)     - (Dual Thigh Claws)
+
+   RW (25.8%)   +Cr (14.4%)     - Dual Lances (Lance Knee-Buster)
+    LW (44.5%)  +Cr (50.2%)     - Dual Lances (Low Drill Claw)
+    RW (43.5%)  +Cr (41.6%)     - Quick Dual Lances (Lance Knee-Buster)
+    CW    NA    +Cr (55.0%)     - (Dual Thigh Claws)
+
+//-------------------------//
+//  5.5. Shinku(u) Cancel  //
+//-------------------------//
+
+This section is incomplete!!! Help finish and become credited! Read more in
+the Appendix.
+
+=============================================================
+Part VI: The Grys-Vok (SAV-326-D/9)
+=============================================================
+
+//---------------------//
+//  6.1. Introduction  //
+//---------------------//
+
+!!! grys-vok series intro
+
+//-----------------//
+//  6.2. Basic CC  //
+//-----------------//
+
+[6.2.1 Basic Variations]
+
+   LW (38.5%)   +Cr (24.8%) 54.9m   - Left Arm Slap (Left Arm Sweep)
+   RW (34.0%)   +Cr (21.1%) 64.9m   - Right Arm Slap (Right Arm Sweep)
+   CW (36.7%)   +Cr (34.0%) 79.9m   - Arm Tornado (Dual Arm Sweep)
+
+[6.2.2 Turbo Variations]
+
+RT+
+   LW (37.6%)       - Bear Hug
+   RW (27.5%)       - Ballistic Bear Hug
+   CW (39.9%)       - Bear Smash
+
+[6.2.3 Quick Step CC]
+
+          Direction
+LT+   /  Left | Right \
+      +---------------|
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+RT+   +-----28.5%-----+
+   LW |   1   |   1   |
+   RW |   1   |   1   |
+      \---------------/
+
+1 - Grys-Vok rotates around opposing VR and slaps them with its arms.
+
+[6.2.4 Jumping CC]
+
+ J+
+   LW (41.3%)       - Grys-Vok jumps and slams its left arm on to the
+                       opposing VR.
+   RW (38.0%)       - Grys-Vok jumps and slams its right arm on to the
+                       opposing VR.
+   CW (41.3%)       - Grys-Vok jumps and belly-flops on to the opposing VR.
+
+[6.2.5 Ground-Hit CC]
+
+   RW (14.3%)       - Dips its right arm into the fallen opposing VR body.
+
+[6.2.6 Dashing CC]
+
+   LW (34.0%)       - Swings its left arm in an arc to the left of its body.
+   RW (34.0%)       - Swings its right arm in an arc to the right of its
+                       body.
+   CW (41.7%)       - Lifts both arms in front of its body.
+
+//-------------------------//
+//  6.3. Chains and Combos //
+//-------------------------//
+
+!!! grys series chain intro
+
+[6.3.1 Basic Chains]
+
+   LW (38.5%)   +Cr (24.8%)     - Left Arm Slap (Left Arm Sweep)
+    LW (62.8%)   +Cr (63.3%)    - Left Elbow Ram (Left Arm Sweep)
+    RW (58.2%)   +Cr (59.6%)    - Right Arm Slap (Right Arm Sweep)
+    CW    NA     +Cr (72.5%)    - (Dual Arm Sweep)
+
+   RW (34.0%)   +Cr (21.1%)     - Right Arm Slap (Right Arm Sweep)
+    LW (58.2%)  +Cr (58.7%)     - Left Arm Slap (Left Arm Sweep)
+    RW (53.6%)  +Cr (55.0%)     - Right Arm Back Slap (Right Arm Sweep)
+    CW    NA    +Cr (67.9%)     - (Dual Arm Sweep)
+
+//-------------------------//
+//  6.5. Shinku(u) Cancel  //
+//-------------------------//
+
+!!! Grys-Vok Shinku(u) desc
+
+   RW (68.0%)   Medium  Omni        - Cancel when its Right Arm is !!!
+
+!!! finish other VRs
+
+=============================================================
+Part XIIV: Basic Strategies
+=============================================================
+
+//------------------------//
+//  13.1. Chain Breaking  //
+//------------------------//
+
+CC chains are the most reliable way of causing the most damage against your
+opposing VR. However, if you're the opposing VR caught in a chain, then
+suddenly the damage potential doesn't seem as much of a positive as it did
+when entering CC. Unfortunately, it's the inability to control CC which
+scares many people away from it. These basic Chain Breaking strategies, when
+used properly, will help you improve your close game and reduce the amount of
+damage you receive in CC.
+
+[13.1.1 Guarding]
+
+Pro:
+The easiest way to stop a chain from damaging you is to simply guard. While
+guarding, any successful CC attack against you only does a low "guard
+damage" percentile.
+
+Con:
+Unfortunately, while a relatively safe reaction to incoming attacks, a
+simple guard performed against a competant opponent places you in a
+tactically inferior position. Your opponent will notice your guard and
+either immediately cause you to lose CC indicators or attempt a unblockable
+CrCC attack.
+
+Reality:
+Once you've reached a certain level of skill, guarding should be your
+solution of last resort and more advanced strategies are suggested.
+
+[13.1.2 Guard Reversals]
+
+Pro:
+A Guard Reversal is typically a more aggressive method of breaking a chain
+or even a QS-CC. Instead of taking a defensive posture which can place you
+in a tactically inferior position, a Guard Reversal gives you the
+opportunity of punishing your opponent for using a chain or being overly
+predictable.
+
+Con:
+Unfortunately, if your opponent successfully guards your Guard Reversal,
+you're left in a significant freeze animation which cannot be cancelled;
+allowing your opponent to counter-attack at their leisure.
+
+Reality:
+A Guard-Reversal is a useful and quick attack; however, be extrememly
+careful at with its usage. It's better to be in a tactically inferior
+position than on the ground from having taken a RTCW CC attack.
+
+[13.1.3 Quick-Step]
+
+Pro:
+A QS is a good mixture of aggresiveness and defensiveness in responding to a
+CC chain. A QS allows you to completely avoid your opponents attack, causes
+them to lose indicators on you, and at the same time places you in a perfect
+position for a counter-attack.
+
+Con:
+Be careful with your Quick-Steps. While rapdily Quick-Stepping, trying to
+confuse your opponent, it's extremely easy to accidently place yourself in a
+tactically inferior position and be punished for it by your opponent. Also,
+many VRs attacks only allow for one direction of Quick-Stepping; the wrong
+direction causing a full on weapon-VR collision.
+
+Reality:
+If you know what your opponent is going to do, more power to you. In
+VOOT, the odds for Quick-Stepping to the left are better than the
+right. However, be aware of a few RT attacks which hit omni-directionally.
+
+[13.1.4 Quick-Step CC Counter]
+
+Pro:
+While not as intimidating as a QS followed up with a normal CC attack, a
+QS-CC counter can often be much more tactically sound. The QS-CC has
+directional homing and is much harder for an opponent to use a dash-cancel
+to avoid.
+
+Con:
+A well timed Guard-Reversal should be your greatest fear. It can knock a VR
+right out of a QS-CC and is often extremely hard to see coming. However,
+assuming good timing and the correct direction, there really aren't many
+cons to the QS-CC counter. Be ready to cancel in case your opponent
+successfully avoids the QS-CC.
+
+Reality:
+One of the better methods to countering a chain or most forms of CC. Use it
+wisely.
+
+[13.1.5 Jumping CC Counter]
+
+Pro:
+It's flashy, deals good damage, and extremely hard to counter. It's similar
+to a Guard-Reversal in advantages, except you can't (as easily) counter
+QS-CC.
+
+Con:
+Exactly like a Guard-Reversal: If your opponent sees it coming, or worse,
+guards it, you've got a serious problem in the shape of an uncancellable
+freeze animation.
+
+Reality:
+Sleepy players won't see it coming, but it's most effective on a cocky
+"professional" whiffing an unblockable CrCC attack. Punish them and feel
+good about it.
+
+//------------------------//
+//  13.2. Guard Breaking  //
+//------------------------//
+
+!!! finish guard breaking. QSs, "mirage", and forward dashing
+
+[13.2.1 Quick-Step]
+[13.2.2 Quick-Step CC]
+
+[13.2.3 Quick-Step cancelled CrCC]
+
+[13.2.3 The "Mirage"]
+[13.2.4 Dash Theory]
+
+//------------------//
+//  13.3. Counters  //
+//------------------//
+
+!!! finish counters. include RT and Cr counters.
+
+Part XIV: Advanced Strategies
+   14.1 Swallow's Tail
+    !!! nice, but can it be used as a guard breaker? no
+   14.3 CC Motion Cancels
+    !!! great shit, to bad only grys-vok has them
+
+=============================================================
+Appendix 1: Tables
+=============================================================
+
+=============================================================
+Appendix 2: Fin
+=============================================================
+
+It is perfectly acceptable to send me e-mail with questions about
+Virtual-On... however, I would suggest checking out SydVOC's and GameFAQ's
+forums before coming to me.
+
+//-------------------------//
+//  A2.1. Further Reading  //
+//-------------------------//
+
+Sydney Virtual On Club:
+    http://www.sydvoc.com/
+GameFAQs:
+    http://www.gamefaqs.com/
+Oratan:
+    http://www.oratan.com/
+Virtual On (Sega) (Japanese):
+    http://virtual-on.dricas.ne.jp/oratan/hotstart/
+Hong Kong VR Team:
+    http://luvluvfeiyen.tripod.com/
+
+//-----------------//
+//  A2.2. Credits  //
+//-----------------//
+
+hyt0:
+    First person to just kick me in the ass and tell me to write some
+content. ;-)
+
+Butt from the Hong Kong VR Team:
+    For the range tables (before I had access to a DC), understanding of new
+moves and helping with translation.
+
+Fei Yuki Kn:
+    Lots of great Fei-Yen Kn information. I completely forgot about
+Fei-Yen's LTLW stun ability, so now you know who reminded me.
+
+Kirk:
+    Unbelievable amounts of help. He's my Cali contact, yo. ;-)
+
+Johnson:
+    Swallow's Tail support aka making my hands hurt.
+
+//------------------//
+//  A2.3. Devotion  //
+//------------------//
+
+Let's be honest. It's a devotion. The real credits are above. :-p
+
+[A2.3.1 Scott's List]
+
+Without the help of a great many people, my horrible spiral into Virtual-On
+addiction would never have been possible. The following people should be
+beaten with a rubber hose for what they've done:
+
+Token Juro Watari:
+I hate you. I hate you. I hate you. Why have you done this to me?! Damn it,
+the only way I can see my life correcting itself is if the M.S.B.S.
+activates at some VO:OT system, somewhere, and I'm recruited into the ranks
+an associate army. Otherwise, you've ruined me.
+
+1st through 3rd year VOOM:
+Matt, John Doe, Hito, Tweedle-dum-san, Huang-Ju, Peter ("Danny"), Owen,
+Mike, Igor, Neil, Otto, Dave, Joe, MaryJo, Sam, Tom, Tim, Chris, Scott,
+James, Fei-Yen Ryan, Al, Phong, Ryan, Adam, and everyone else I forgot.
+
+1st through 3rd year VOOT:
+Brent, Pat, James H., Mark H., Dedan, Johnson, Michael, Hiro, Sato, Sam,
+Tom, Mike, Kirk, Dave, Joe, Mark G., Matt, Adam, Ian, Eiji, Dotstry, Yuki,
+Danele, Frank, Scott F., Joey, Nick and the Oregon crew, James Y. and the
+collective SydVOC forum, and the always entertaining GameFAQs message board.
+
+Of course, there are the ones who didn't intend to support it, but did
+unintentionally:
+
+My parents, BCA Games, Green River Community College (all roads end here),
+McCarl, and the Lindbloom Student Center's VOOM cabinet, Gameworks of
+Seattle, Southern Hills Golfland of Stanton, and Illusionz of Issaquah.
+
+I'm sure I've forgotten you, and for that I'm dreadfully sorry. Throughout
+the years I've remembered and forgotten as many people, as strategies in VO.
+If you're reading this and you know the only Black guy with a 'fro who
+played a mean game of VOOM at GRCC, e-mail me. We need to talk. For everyone
+reading these credits, I know I'm sad.
+
+--fin--

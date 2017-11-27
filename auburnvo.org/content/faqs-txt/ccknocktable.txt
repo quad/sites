@@ -1,0 +1,188 @@
+Dordray
+Apharmd B
+Raiden
+Grys-Vok
+Apharmd S
+Bal-Bados
+Temjin
+Fei-Yen
+Angelan, Specineff, Cypher
+
+Sorted Cumulative Rankings:
+Dordray         57 
+Apharmd B       43
+Grys-Vok        41
+Raiden          41
+Apharmd S       39
+Bal-Bados       36
+Temjin          35
+Fei-Yen         25
+Angelan         25
+Specineff       25
+Cypher          25
+
+                LW  RW      vs. Temjin
+Temjin          1   2
+Apharmd B       2   3
+Raiden          1   1
+Fei-Yen         2   1
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        1   2
+Specineff       2   1
+Bal-Bados       1   3
+Cypher          2   2
+Dordray         1   1
+                16  21      37
+
+                LW  RW      vs. Apharmd B
+Temjin          1   2
+Apharmd B       2   4
+Raiden          1   1
+Fei-Yen         2   2
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        2   3
+Specineff       2   1
+Bal-Bados       1   4
+Cypher          2   2
+Dordray         1   2
+                17  26      43
+
+                LW  RW      vs. Raiden
+Temjin          1   2
+Apharmd B       2   4
+Raiden          1   1
+Fei-Yen         2   2
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        1   2
+Specineff       2   1
+Bal-Bados       1   4
+Cypher          2   2
+Dordray         1   2
+                16  25      41
+
+                LW  RW      vs. Fei-Yen
+Temjin          1   1
+Apharmd B       1   2
+Raiden          1   1
+Fei-Yen         1   1
+Angelan         1   1
+Apharmd S       1   2
+Grys-Vok        1   1
+Specineff       1   1
+Bal-Bados       1   2
+Cypher          1   1
+Dordray         1   1
+                11  14      25
+
+                LW  RW      vs. Angelan
+Temjin          1   1
+Apharmd B       1   2
+Raiden          1   1
+Fei-Yen         1   1
+Angelan         1   1
+Apharmd S       1   2
+Grys-Vok        1   1
+Specineff       1   1
+Bal-Bados       1   2
+Cypher          1   1
+Dordray         1   1
+                11  14      25
+
+                LW  RW      vs. Apharmd S
+Temjin          1   2
+Apharmd B       2   3
+Raiden          1   1
+Fei-Yen         2   2
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        1   2
+Specineff       2   1
+Bal-Bados       1   3
+Cypher          2   2
+Dordray         1   2
+                16  23      39
+
+                LW  RW      vs. Grys-Vok
+Temjin          1   2
+Apharmd B       2   4
+Raiden          1   1
+Fei-Yen         2   2
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        1   2
+Specineff       2   1
+Bal-Bados       1   4
+Cypher          2   2
+Dordray         1   2
+                16  25      41
+
+                LW  RW      vs. Specineff
+Temjin          1   1
+Apharmd B       1   2
+Raiden          1   1
+Fei-Yen         1   1
+Angelan         1   1
+Apharmd S       1   2
+Grys-Vok        1   1
+Specineff       1   1
+Bal-Bados       1   2
+Cypher          1   1
+Dordray         1   1
+                11  14      25
+
+                LW  RW      vs. Bal-Bados
+Temjin          1   2
+Apharmd B       2   3
+Raiden          1   1
+Fei-Yen         2   1
+Angelan         1   2
+Apharmd S       2   3
+Grys-Vok        1   2
+Specineff       2   1
+Bal-Bados       1   3
+Cypher          1   2
+Dordray         1   1
+                15  21      36
+
+                LW  RW      vs. Cypher
+Temjin          1   1
+Apharmd B       1   2
+Raiden          1   1
+Fei-Yen         1   1
+Angelan         1   1
+Apharmd S       1   2
+Grys-Vok        1   1
+Specineff       1   1
+Bal-Bados       1   2
+Cypher          1   1
+Dordray         1   1
+                11  14      25
+
+                LW  RW      vs. Dordray
+Temjin          2   3
+Apharmd B       3   5
+Raiden          2   1
+Fei-Yen         3   2
+Angelan         2   3
+Apharmd S       3   4
+Grys-Vok        2   3
+Specineff       3   2
+Bal-Bados       2   5
+Cypher          2   3
+Dordray         1   2
+                24  33      57
+
+Resistance Order:
+Dordray
+Apharmd B
+Raiden   \ Exactly
+Grys-Vok / Same?
+Apharmd S
+Temjin
+Angelan \ Exactly
+Fei-Yen / Same?
+
+Power Order:

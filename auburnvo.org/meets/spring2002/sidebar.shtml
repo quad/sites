@@ -1,0 +1,40 @@
+<!-- meets/spring2002/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+
+    <tr>
+      <td align="right">
+        <b>
+            Current Status: <font color="#FFFFFF">DONE</font><br>
+            9pm&nbsp;-&nbsp;1am
+        </b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Tournament Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Seattle Airport Hilton & Conference Center<br>
+        17620 Pacific Highway South<br>
+        98188-4001
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Robinson<br>
+        <a href="mailto:scott_vo@quadhome.com">scott_vo@quadhome.com</a><br>
+        Home: (425) 432-3532
+      </td>
+    </tr>
+  </table>

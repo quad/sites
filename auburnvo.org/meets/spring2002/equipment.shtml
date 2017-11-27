@@ -1,0 +1,334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>Auburn VO Crew: Spring Tournament 2002 Equipment List</title>
+
+<!--#include virtual="../../template/head.shtml" -->
+
+<!--
+    meets/spring2002/equipment.shtml
+
+    The Spring 2001 tournament equipment list.
+
+    Tue May 21 15:59:41 PDT 2002    SSR
+        First post!
+
+-->
+</head>
+
+<!--#include virtual="../../template/body-start.shtml" -->
+
+<!--#include virtual="../../template/content-start.shtml" -->
+
+    <!-- So to remove the right alignment needed in every other AVC page. -->
+    </div><div>
+
+<h1>Equipment List</h1>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>DC VOOT Site 1</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>Serial Number #</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td>S1 DC1</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td>S1 VB1</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td></td>
+            <td>$30</td>
+            <td>No</td>
+            <td><a href="#owner-jchase">JCHASE</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor</td>
+            <td></td>
+            <td>$35</td>
+            <td>No</td>
+            <td><a href="#owner-jchase">JCHASE</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td>638265</td>
+            <td>$120</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td>511827</td>
+            <td>$120</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Link Cable</td>
+            <td>Ghetto</td>
+            <td>$60</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>DC VOOT Site 2</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>Serial Number #</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Link Cable</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>PC/DC Site 3</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>Serial Number #</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>PC and accessories</td>
+            <td>PC1 PC1</td>
+            <td>$2000</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td>DU064428055</td>
+            <td>$100</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor</td>
+            <td>OGAB2009-798</td>
+            <td>$200</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Nexus 4x VMU + Cable</td>
+            <td></td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td>Mixer</td>
+            <td>PC1 M1</td>
+            <td>$100</td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+    <h2>Owners List</h2>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Street Address</th>
+            <th>E-Mail Address</th>
+            <th>Phone Number</th>
+        </tr>
+
+        <tr>
+            <td><a name="owner-mgehr" href="#owner-mgehr1">MGEHR</a></td>
+            <td>Matt Gehr</td>
+            <td>
+                2410 E. Lynn St. #107<br>
+                Seattle, WA 98112
+            </td>
+            <td><a href="mailto:ryojikaji143@hotmail.com">ryojikaji143@hotmail.com</a></td>
+            <td>(206) 324-0904</td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-djacks" href="#owner-djacks">DJACKS</a></td>
+            <td>Dotstry Jackson</td>
+            <td>
+                5138 S. Othello St.<br>
+                Seattle, 98118
+            </td>
+            <td><a href="mailto:customerservice@mindspring.com">customerservice@mindspring.com</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-srobin" href="#owner-srobin">SROBIN</a></td>
+            <td>Scott Robinson</td>
+            <td>
+                22126 270th Ave SE<br>
+                Maple Valley, 98038
+            </td>
+            <td><a href="mailto:scott_vo@quadhome.com">scott_vo@quadhome.com</a></td>
+            <td>(425) 432-3532</td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-jchase" href="#owner-jchase">JCHASE</a></td>
+            <td>Jason Chase</td>
+            <td>
+                5575 S. 152nd St #104<br>
+                Seattle, 98188
+            </td>
+            <td><a href="mailto:zor@iname.com">zor@iname.com</a></td>
+            <td>(206) 246-7262</td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-sgibso" href="#owner-sgibso">SGIBSO</a></td>
+            <td>Sam Gibson</td>
+            <td>
+            </td>
+            <td><a href="mailto:samgib@wsu.edu">samgib@wsu.edu</a></td>
+            <td></td>
+        </tr>
+    </table>
+
+<!--#include virtual="../../template/content-end.shtml" -->
+
+<!--#include virtual="../../template/body-end-pf.shtml" -->
+
+</html>

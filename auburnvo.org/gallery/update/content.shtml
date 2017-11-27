@@ -1,0 +1,33 @@
+<!-- roster/update/content.shtml -->
+<table class="sidebar" cellpadding="1" cellspacing="1">
+
+<!-- PHOTO GALLERIES -->
+
+  <tr>
+    <td align="right" colspan="2">
+        <b>Photo Galleries</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="Profiles/">[Various]<br>Profiles</a>
+    </td>
+
+    <td>
+      <a href="B%26W/">[Doug]<br>Black and White</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <a href="http://photos.groups.yahoo.com/group/seattle-vo/lst">[Various]<br>Assorted Photos</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <a href="IZ-winter2001/">[Matt]<br>IZ Winter 2001</a>
+    </td>
+  </tr>
+</table>

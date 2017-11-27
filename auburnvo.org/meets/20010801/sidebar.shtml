@@ -1,0 +1,39 @@
+<!-- meets/20010801/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font> at 5pm</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        7th & Pike Street<br>
+        Downtown Westlake<br>
+        1511 7th Ave.<br>
+        Seattle, 98101<br>
+        (206) 521-0952
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Robinson<br>
+        (425) 432-3532<br>
+        <a href="mailto:scott@sydvoc.com">scott@sydvoc.com</a>
+      </td>
+    </tr>
+  </table>

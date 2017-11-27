@@ -1,0 +1,416 @@
+=============================================================
+In-Depth and Complete Guide to
+Virtual On: Cybertroopers - Operation Moongate FAQ
+Date:       Fri Feb 25 15:15:47 PST 2000
+Written by: Scott Robinson <scott_vo@dsn.itgo.com>
+=============================================================
+
+Note
+-----
+This should be displayed in monospace format.
+The dots and numbers should line up.
+
+..........
+1234567890
+
+//---------------//
+//  Legal Stuff  //
+//---------------//
+
+Virtual On: Cybertroopers and its characters are the property of Sega of
+Japan. This guide was written by the above authors. We, the authors, are not
+affiliated with Sega, and this guide is not official in any way.  We wrote
+this guide because we felt there wasn't enough complete Virtual On
+information on the Internet. This guide is distributed under the Open
+Content license. (http://www.opencontent.org/)
+
+//-------------------//
+//  Version History  //
+//-------------------//
+
+v1.0 -- Fri, 25 Feb 2000 15:24:46 -0800
+First release
+
+=============================================================
+
+Part I: Introduction to Virtual On: Cybertroopers
+   1.1 Storyline
+    .2 The Cabinet
+    .3 The Interface
+    .4 The Game
+
+Part II: The Absolute Basics (and some you might have missed)
+   2.1 Toddler Years (or how to walk without flailing)
+    .2 "I'm a big boy now" (or how to _really_ move)
+    .3 BAM BAM BAM BAM (or how to blow stuff up!)
+    .4 Annoying Brat (or Rush Vectoring 101)
+
+Part III: Intermediate Gameplay (aka The Ceiling)
+   3.1 Cancelling 102
+    .2 Close Combat 101
+
+Part IV: Advanced Techniques
+   4.1 Close Combat 102
+    .2 Okizeme
+
+Part V: In-Depth Virtualoid Guides
+   5.1 MBV-04-G Temjin
+    .2 HBV-10-B Dorkas
+    .3 SRV-14-A Fei-Yen
+    .4 SAV-07-D Belgdor
+    .5 TRV-06K-H Viper II
+    .6 XBV-13-T11 Bal-Bas-Bow
+    .7 MBV-09-C Apharmd
+    .8 HBV-05-E Raiden
+
+Part VI: Secrets and other miscellania that prove addiction
+
+Part VII: Fin
+   7.1 Closing
+    .3 Further reading
+    .4 Credits
+
+
+=============================================================
+Part I: Introduction to Virtual On: Cybertroopers
+=============================================================
+
+
+//------------------//
+//  1.1. Storyline  //
+//------------------//
+
+(this storyline is a rough translation and has been cleaned up. Same
+content, better grammar and tense.)
+
+Earth has entered the Virtual Century (V.C.). The world is now controlled by
+a few large syndicates that operate the media industry. A new dark age has
+dawned.
+
+Humanity has switched its focus from saving the planet to space colonization.
+Compared to the Earth, the space colonies are expanding and developing at a
+much greater rate and the syndicates on the Earth are wary of the colonies
+newfound power.
+
+In V.C.0084, one of the syndicates on Earth, Dynatech and Nova (DN), found,
+on the moon, the ruins of a civilization housing technology far more
+advanced than on the Earth or any of the space colonies. DN has hidden this
+technology and is using it to produce weapons that are much more advanced
+than its competitors'. These human-like robots are code-named Virtuaroids
+(VRs).
+
+It turns out, VRs are difficult to control, and only people who are "Virtual
+On Positive" (VO+) are capable of controlling a VR well. In a discreet
+attempt to search for these people, DN created a video game called "Virtual
+On: Cybertroopers" and placed it in the local video arcades to test for VO+
+players. Unknown to the players, there is a remote control system in each
+console that can link-up the simulators to actual VRs situated on the Moon,
+where DN's VR factory is located.
+
+However, the central computer in the VR factory has suddenly become
+self-aware, and has taken control of the DN enterprise on the Moon. The
+ultimate weapon, the Sun Cannon, has been activated by the central computer.
+
+Sensing disaster, DN has little choice but to destroy the renegade factory
+with their VRs. Operation Moongate has been put into action, the satellite
+link-ups are activated, and VO+ players are (unknowingly) now used in a
+real-life wargame. Can you battle your way through the renegade Virtuaroids
+and destroy the Sun Cannon before it destroys the Earth?
+
+
+//--------------------//
+//  1.2. The Cabinet  //
+//--------------------//
+
+The Virtual On game cabinet is not so much a cabinet as it is a decked out
+video game center. Similar to Sega's other Model 2, sit-down consoles (e.g.
+Daytona II), the Virtual On cabinet has comfortable and fully adjustable
+molded plastic seats. The speakers are located to the left and right of a
+HUGE television from which you can see your VR beat the living doo-doo out
+of your opponent's VR.
+
+Make friends with this chair, it will soon be the place you spend all your
+time.
+
+
+//----------------------//
+//  1.3. The Interface  //
+//----------------------//
+
+More important than anything else on the entire "cabinet" are the controls.
+These are your interface to the world of Virtual On. The game often tricks
+people with its simplisitic control interface. Let's diagram, shall we:
+
+/-----------------------------------------------------\
+|                                                     |
+|         _+\                             _+\         |
+|         | |+                            | |+        |
+|         | |            Start            | |         |
+|         | |              O              | |         |
+|        -----                           -----        |
+|     Left Stick                      Right Stick     |
+|                                                     |
+\-----------------------------------------------------/
+
+Within this document we'll (ab)use a standard set of joystick movement codes
+to instruct you on how to not flail yourself silly in the game.
+
+
+F|B , CW + [T]
+^ ^ ^ ^     ^
+| | | |     \---- Press your right dash button  [dash selection]
+| | | \---- Press both weapon triggers          [weapon selection]
+| | \---- Delay for action                      [delay type]
+| \---- Pull your RIGHT joystick BACKWARD       [joystick movement]
+\---- Push your LEFT joystick FORWARD           [joystick movement]
+
+
+[1.3.1 delay type]
+
+Delays are needed in between certain joystick inputs:
+
+[command 1] , [command 2] - Don't input "action 2" until "command 1" occurs.
+                            You can delay "command 2" until "command 1" finishs
+                            executing.
+[command 1] + [command 2] - Perform "command 1" and "command 2"
+                            simultaneously.
+[command 1] ~ [command 2] - Perform "command 2" immediately after performing
+                            "command 1".
+
+
+[1.3.2 joystick movement]
+
+In this FAQ, joystick movement codes are a set of at least two letters. The
+codes tell you where to place your two joysticks.
+
+F - PUSH joystick FORWARD
+B - PULL joystick BACKWARD
+L - MOVE joystick LEFT
+R - MOVE joystick RIGHT
+. - PLACE the joystick in a NEUTRAL position (centered)
+
+Examples:
+
+    F|B     - PUSH your LEFT joystick FORWARD and PULL your RIGHT joystick
+                BACKWARD.
+
+    R|L     - Bringing your two joysticks in towards one another.
+
+    FR|FR   - PUSH both your joysticks FORWARD and RIGHT (diagonally).
+
+
+[1.3.3 weapon selection]
+
+In Virtual On, each VR has three primary weapon systems. Activation of each
+weapon system is keyed to pressing the front red triggers on the
+joysticks...
+
+LW - Left Weapon activation.    Press the LEFT trigger.
+RW - Right Weapon activation.   Press the RIGHT trigger.
+CW - Center Weapon activation.  Press BOTH triggers simultaneously.
+
+Each weapon also has variations available that are important in certain
+situations:
+
+(replace [w] with a weapon code)
+
+C[w] = R|L+[w]  - Crouching Weapon activation
+J[w] = L|R,[w]  - Jumping Weapon activation
+
+
+[1.3.4 dash activation]
+
+Two redundant dash triggers are on top of the joysticks.
+
+(replace [m] with a joystick movement)
+
+[m]+T - TAP a SINGLE DASH trigger
+
+Examples:
+
+    R|R+T   - MOVE both joysticks RIGHT then TAP the DASH trigger.
+                Results in your VR RUSHing RIGHT.
+
+    FR|FR+T - MOVE both joysticks FORWARD and RIGHT then TAP the DASH
+                trigger. Results in your VR RUSHing FORWARD DIAGONALLY
+                RIGHT.
+
+
+//-----------------//
+//  1.4. The Game  //
+//-----------------//
+
+Virtual On, the game, can be cleanly divided into five sections:
+
+
+[1.4.1 Ground Mode]
+
+You sit down, you put your credits in, and you're transported to a mystical
+world of Virtual On... though more specifically you're fighting the NULL AI
+of Temjin on the level known as the Flooded City.
+
+In Ground Mode you fight five computer (local console) controlled AIs in
+five radically different environments to learn how to play Virtual On. Its
+the training mode. So have fun!
+
+The VRs and their levels follow:
+
+1. Temjin at the Flooded City (8th Planet: Flesh Refoe)
+    Basically cannon fodder. However, he's a prime example of the Virtual On
+    learning chip. If your local Virtual On scene has been playing a lot of
+    Temjin well, then he won't be defeated so easily. Don't worry though,
+    power-cycle the machine and you're ok.
+
+2. Viper II at the Airport (Rentarea #??)
+    Teaches you anti-air and how to cope with an arena with lots of
+    buildings.
+
+3. Dorkas at the Waterfront (Terminal City #359)
+    Generally considered the first "real" AI in the game. Most beginners
+    begin having their bad luck here. Teaches you anti-turtling skills and
+    how to handle explosive weapons. (Phalanx)
+
+4. Belgdor at the Green Hills (8th Planet: Flesh Refoe)
+    The first actively escaping VR on the first open arena! However, there
+    is a small bug in the AI that allows for quick wins. See further down or
+    see if you can figure it out yourself.
+
+5. Bal-Bas-Bow at the Ruins (")
+    Once a player can reliably defeat the first four VRs, it's Bal-Bas-Bow
+    that usually screws up their times. It's playing style is unlike any
+    encountered thus far and throws off most intermediate players. It's sad,
+    but most players, instead of learning how to cope with "true" aerial
+    warefare, just find a strategy that works against the AI and continue on
+    to...
+
+[1.4.2 Jaguarandi]
+    The Mid-Boss of Virtual On. Activated by most beginning players, he
+    comes online if a player spends more than an average of 30 seconds per
+    previous VR.
+
+    Big, deadly, and out of control. Jaguarandi is the Virtual remains of
+    the first VR pilot, a young boy. Jaguarandi is his mental perception of
+    himself made real through a software glitch. The designers of Virtual On
+    don't know how Jaguarandi itself came to exist, but they don't plan on
+    removing "him."
+
+[1.4.3 Space Mode]
+    After defeating all the training VRs and maybe Jaguarandi, Mind Shift
+Battle System kicks in and you're transported to a REAL VR in a REAL war
+zone. A whole new set of "real" AI VRs are ready for you to bash in.
+
+1. Apharmd at the Space Dock (8th Planet: Flesh Refoe)
+    A formidable VR with a formidable AI. It'll give most players their
+    first "real" experience in close combat.
+
+2. Fei-Yen at the Moon Base (the Moon?)
+    A _cheap_ _cheap_ CHEAP AI. If you're going for time, it's the most
+    likely to ruin it.
+
+3. Raiden at Death Trap aka Invertebrate Shaft (Restricted Area MG/a0)
+    In reality, Raiden is a bit of a let down. You fight through all these
+    cool AIs and then you get Raiden. Unless you've smoked yourself retarded,
+    you'll cream him easy.
+
+[1.4.4 Z-Gradt]
+    FINAL BOSS. Secret Secret. ;)
+
+
+=============================================================
+Part II: The Absolute Basics (and some you might have missed)
+=============================================================
+
+
+//-------------------------------------------------------//
+//  2.1 Toddler Years (or how to walk without flailing)  //
+//-------------------------------------------------------//
+
+For someone first approaching Virtual On, the most difficult challenge of
+the game is controlling their VR without making it look like it's having an
+epileptic seizure. This section should help you out in _looking_ like you
+know where you're going.
+
+
+[2.1.1 Walking and Rotating]
+
+If you've never driven a tank, here is your chance. The VR controls exactly
+like one:
+
+F|F - WALK FORWARD
+B|B - WALK BACKWARD
+R|R - WALK RIGHT
+L|L - WALK LEFT
+
+Rotation is key in Virtual On. As a full 3D game, one of the key facet of
+the game is to keep your opponent on your screen and within your firing
+radius.
+
+F|B - ROTATE your VR RIGHT
+B|F - ROTATE your VR LEFT
+
+These are useless, but included anyway for your pleasure.
+
+.|R - SHUFFLE RIGHT
+L|. - SHUFFLE LEFT
+
+Keep in mind it is possible to chord the rotate and walking movements so
+that you walk and rotate. The advantage of this is keeping an opponent on
+screen but still avoiding their fire.
+
+
+[2.1.2 Dashing]
+
+"Make it fast!" So be it. Dashing is another key facet of Virtual On. It
+allows you to get from Point A to Point B _FAST_. Really fast.
+
+(replace [m] with a joystick movement)
+
+[m]+T - DASH in the DIRECTION you move the joysticks in.
+
+However, if for some reason you've decided you've dashed in the wrong
+direction:
+
+(replace [m-] with a joystick movement OPPOSITE of [m])
+
+[m]+T , [m-]+T - DASH CANCEL
+ ^       ^
+ |       \---- This is the CANCEL movement.
+ \---- This starts your DASH.
+
+Examples:
+
+    R|R+T , L|L+T       - Start and CANCEL a RIGHT DASH.
+
+    FR|FR+T , BL|BL+T   - Start and CANCEL a FORWARD DIAGONAL RIGHT DASH.
+
+
+[2.1.3 Jumping]
+
+So far, all of Virtual On could be played on a 2D plane. We (and Sega)
+wouldn't do that to you! (Namco would...) Thus, it is possible rocket into
+the air and stare down at the wonderful arena (and enemy VR) below you.
+
+L|R - JUMP
+
+However, if for some reason you've decided being in the air isn't for you,
+you can always cancel the jump: (though only BEFORE you reach the apex, the
+top, of your jump)
+
+L|R , R|L - JUMP then CANCEL
+ ^  ^  ^
+ |  |  \---- This is your JUMP CANCEL.
+ |  \---- This delay only applies until the APEX of your JUMP.
+ \---- This is your JUMP action.
+
+If getting the Y-axis advantage on your opponent wasn't cool enough, JUMPing
+causes your VR to automatically orient itself towards your opponent's VR.
+Thus the fast application of a JUMP CANCEL flips yourself towards your
+opponent without having to wait to rotate.
+
+
+//-----------------------------------------------------//
+//  2.2 "I'm a big boy now" (or how to _really_ move)  //
+//-----------------------------------------------------//
+
+
+[2.2.1 ]

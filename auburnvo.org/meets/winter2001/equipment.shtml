@@ -1,0 +1,462 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>Auburn VO Crew: Winter Tournament 2001 Equipment List</title>
+
+<!--#include virtual="../../template/head.shtml" -->
+
+<!--
+    meets/winter2001/equipment.shtml
+
+    The Winter 2001 tournament equipment list.
+
+    Fri Dec 21 12:34:11 PST 2001    SSR
+        First post!
+
+-->
+</head>
+
+<!--#include virtual="../../template/body-start.shtml" -->
+
+<!--#include virtual="../../template/content-start.shtml" -->
+
+    <!-- So to remove the right alignment needed in every other AVC page. -->
+    </div><div>
+
+    <h1>Equipment List</h1>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>Arcade Site</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>SN#</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td><a href="#VCR">VCR</a></td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-esoma">ESOMA</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td><a href="#cam">Camcorder</a></td>
+            <td></td>
+            <td></td>
+            <td>No</td>
+            <td>MTHOM</td>
+            <td>No</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>DC VOOT Site 1</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>SN#</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td>Clear Case</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td>DU969956839</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-esoma">ESOMA</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor (17')</td>
+            <td>MI54I5390506</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-esoma">MGEHR2</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td></td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-esoma">ESOMA</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>RGB Output</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>TV Monitor</td>
+            <td>85297961</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-jchase">JCHASE</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-esoma">ESOMA</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Link Cable</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td><a href="#VCR">VCR</a></td>
+            <td>0118064</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Yes</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>DC VOOT Site 2</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>SN#</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>DC-VOOT (US)</td>
+            <td>Real Case</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr1">MGEHR2</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td>DU967451228</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-djacks">DJACKS</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td>31-0463865160</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-djacks">DJACKS</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor (21')</td>
+            <td>29K2F090500CT002</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-djacks">DJACKS</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td>DU967752042-<i>Faded</i></td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-fbuckl">FBUCKL</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td>H20650587-Blue Naki</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-fbuckl">FBUCKL</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Monitor (17')</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-djacks">DJACKS</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr2">MGEHR2</a></td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Twin Sticks (DC)</td>
+            <td></td>
+            <td></td>
+            <td>Yes</td>
+            <td>IAN</td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Link Cable</td>
+            <td>Ghetto</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-srobin">SROBIN</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td><a href="#VCR">VCR</a></td>
+            <td>09955907 C8</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-jchase">JCHASE</a></td>
+            <td>Yes</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td colspan="6" align="center">
+                <h2>DC Site 3</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Item Description</th>
+            <th>SN#</th>
+            <th>Price Estimate</th>
+            <th>Confirmed</th>
+            <th>Owner ID</th>
+            <th>Received</th>
+        </tr>
+
+        <tr>
+            <td>Dreamcast (US)</td>
+            <td>None - Quake</td>
+            <td>$50</td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr2">MGEHR2</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>VGA Box</td>
+            <td>Ghetto w/ elec tape</td>
+            <td></td>
+            <td>Yes</td>
+            <td><a href="#owner-mgehr2">MGEHR2</a></td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>TV Monitor</td>
+        </tr>
+
+    </table>
+
+    <h2>Owners List</h2>
+
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Street Address</th>
+            <th>E-Mail Address</th>
+            <th>Phone Number</th>
+        </tr>
+
+        <tr>
+            <td><a name="owner-mgehr1" href="#owner-mgehr1">MGEHR1</a></td>
+            <td>Matt Gehr</td>
+            <td>
+                418 E. Loretta Pl<br>
+                Apt #416<br>
+                Seattle, 98122
+            </td>
+            <td><a href="mailto:ryojikaji143@hotmail.com">ryojikaji143@hotmail.com</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-esoma" href="#owner-esoma">ESOMA</a></td>
+            <td>Eiji Soma</td>
+            <td>
+                10306 Meridian Ave. N. Apt #410<br>
+                Seattle, 98133
+            </td>
+            <td><a href="mailto:lnt39ra@hotmail.com">lnt39ra@hotmail.com</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-djacks" href="#owner-djacks">DJACKS</a></td>
+            <td>Dotstry Jackson</td>
+            <td>
+                5138 S. Othello St.<br>
+                Seattle, 98118
+            </td>
+            <td><a href="mailto:customerservice@mindspring.com">customerservice@mindspring.com</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-srobin" href="#owner-srobin">SROBIN</a></td>
+            <td>Scott Robinson</td>
+            <td>
+                22126 270th Ave SE<br>
+                Maple Valley, 98038
+            </td>
+            <td><a href="mailto:scott_vo@quadhome.com">scott_vo@quadhome.com</a></td>
+            <td>(425) 432-3532</td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-fbuckl" href="#owner-fbuckl">FBUCKL</a></td>
+            <td>Frank Buckley</td>
+            <td>
+                21418 100th Ave. SE<br>
+                Kent, 98031
+            </td>
+            <td><a href="mailto:navaash@rocketmail.com">navaash@rocketmail.com</a></td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-mgehr2" href="#owner-mgehr2">MGEHR2</a></td>
+            <td>Mark Gehr</td>
+            <td>                
+            </td>
+            <td><a href="mailto:da5id1199@hotmail.com">da5id1199@hotmail.com</a></td>
+            <td>(425) 774-1606</td>
+        </tr>
+
+        <tr>
+            <td><a name="owner-jchase" href="#owner-jchase">JCHASE</a></td>
+            <td>Jason Chase</td>
+            <td>
+                5575 S. 152nd St #104<br>
+                Seattle, 98188
+            </td>
+            <td><a href="mailto:zor@iname.com">zor@iname.com</a></td>
+            <td>(206) 246-7262</td>
+        </tr>
+    </table>
+
+    <h2>Equipment Notes</h2>
+
+        <a name="VCR" href="#VCR">
+        <h3>VCR Requirements</h3>
+        </a>
+
+        <p>
+
+            All VCRs must have both an RCA in and out abilities as well as
+            be able to record the signal passing through. EP or LP recording
+            abilities are also a must. 
+
+        </p>
+
+        <a name="cam" href="#cam">
+        <h3>Camcorder Requirements</h3>
+        </a>
+
+        <p>
+
+            Camcorders used must either be able to record directly to a VHS
+            tape, or have a capturable digital out. A purely digital
+            camcorder would be best, but I don't think we have access to
+            one.
+
+        </p>
+
+<!--#include virtual="../../template/content-end.shtml" -->
+
+<!--#include virtual="../../template/body-end-pf.shtml" -->
+
+</html>

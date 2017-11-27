@@ -1,0 +1,35 @@
+<!-- meets/20030109/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font><br>at 6pm&nbsp;-&nbsp;10pm</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        1400 Boren Ave.<br>
+        Apt #220<br>
+        Seattle, 98101-1956
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Francis<br>
+        (206) 447-5643
+      </td>
+    </tr>
+  </table>

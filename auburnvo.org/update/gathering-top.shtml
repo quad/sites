@@ -1,0 +1,36 @@
+<!-- update/gathering-top.shtml -->
+  <table class="sidebar" cellspacing="0" cellpadding="1">
+    <tr>
+      <td>
+        <hr noshade>
+        <b><font color="#FFFFFF">??? Season Gathering Info:</font></b> 
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <hr noshade> 
+
+        <!-- [update] ADD NEW MEETING INFORMATION HERE -->
+
+        We're like great big bears in hibernation. When we wake up, expect
+        all the other wildlife to run in fear.
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <hr noshade>
+
+        <!-- [update] CHANGE LINKS TO GATHERING INFORMATION -->
+
+        <a href="meets/vo-20030109.shtml"><img src="images/layout/directions.gif" alt="Directions to the next Gathering..." width="120" height="35" border="0"></a><br>
+
+        <br>
+
+        <a href="meets/"><img src="images/layout/archives.gif" alt="Gathering Archives..." width="120" height="35" border="0"></a> 
+
+      </td>
+    </tr>
+  </table>

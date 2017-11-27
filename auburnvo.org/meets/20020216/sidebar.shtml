@@ -1,0 +1,38 @@
+<!-- meets/20020216/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font><br>12pm - 10pm<//b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Benton County Fairgrounds<br>
+        110 Sw 53rd<br>
+        Corvallis, Oregon<br>
+        97333<br>
+        (541) 757-1521
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Robinson<br>
+        (425) 432-3532
+      </td>
+    </tr>
+  </table>

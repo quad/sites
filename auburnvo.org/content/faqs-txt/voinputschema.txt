@@ -1,0 +1,182 @@
+=============================================================
+An input and control schema for
+Cybertroopers Virtual-On: Operation Moongate AND
+Cybertroopers Virtual-On: Oratorio Tangram
+Versions 3.33 and above
+Release: 0.1 release info
+Written by: Scott Robinson <scott_vo@dsn.itgo.com>
+=============================================================
+
+Note
+-----
+This should be displayed in mono-space format.
+The dots and numbers should line up.
+
+..........
+1234567890
+
+
+//---------------//
+//  Legal Stuff  //
+//---------------//
+
+The Cybertroopers Virtual-On series and its characters are the property of
+Sega of Japan and Sega of America. The above authors wrote this guide. We,
+the authors, are not affiliated with Sega, and this guide is not official in
+any way. We wrote this guide because we felt there wasn't enough complete
+Virtual-On information on the Internet. This guide is distributed under the
+Open Content license (http://www.opencontent.org/) with the addition that
+commercial redistribution, republication, or reproducation may be possible
+with the explicit permission of the authors.
+
+Essentially, if you want to make money off this, we want to hear about it.
+
+//-------------------//
+//  Version History  //
+//-------------------//
+
+v0.1 -- !!! insert date?
+First release. Look inside, ok?
+
+=============================================================
+
+Part I: Introduction to ...
+   1.1 ... Virtual-On
+    .2 ... Virtual-On's control system
+
+Part II: Common
+   2.1 Introduction
+    .2 Control Schema
+
+Part III: English
+   2.1 Introduction
+    .2 Control Schema
+    .3 Glossary
+
+Part IV: Japanese 
+    3.1 Introduction
+    .2 Control Schema
+    .3 Glossary
+
+Appendix: Fin
+   A.1 Further reading
+    .2 Credits
+
+
+=============================================================
+Part I: Introduction to ...
+=============================================================
+
+//-----------------------//
+//  1.1. ... Virtual-On  //
+//-----------------------//
+
+Sega's Cybertroopers Virtual On series (VO) contains Cybertroopers
+Virtual-On: Operation Moongate (VOOM) and Cybertroopers Virtual-On: Oratorio
+Tangram. (VOOT) Virtual-On is a 3D PvP "mech" fighting game spanning over
+four gaming systems. It is arguably one of the deeper fighting games and is
+almost alone in its genre due to its high quality.
+
+More information on Virtual-On is available in the Further Reading (A.1)
+section.
+
+//----------------------------------------//
+//  1.2. ... Virtual-On's control system  //
+//----------------------------------------//
+
+VO was originally available for Sega's Model 2 Arcade System. The primary
+method of input was two specially designed arcade sticks, known as Twin
+Sticks. However, as time has progressed, VO has advanced to a variety of
+environments including Model 3 Arcade System, Saturn and Dreamcast
+(controllers), and the new Naomi Arcade System.
+
+Thus, there are two primary methods of control for Virtual-On. The Twin
+Sticks, and the Controllers. Each allow for varying amounts of speed and
+control interaction with VO.
+
+This guide will overview various methods of textualizing the control schema
+for both Twin Sticks and Controllers, catagorizing via the primary language
+group the schemas are used for.
+
+It is assumed you have basic knowledge of VOOT, in order to understand this
+guide.
+
+=============================================================
+Part II: Common
+=============================================================
+
+//---------------------//
+//  3.1. Introduction  //
+//---------------------//
+
+Thankfully, there are certain schema which are so widely used and
+recognized, they might as well be the universal common standard for VO.
+Unfortunately, they are generally button commands.
+
+//-----------------------//
+//  3.2. Control Schema  //
+//-----------------------//
+
+[3.2.1 Button Command Notation]
+
+[t] turbo command sets:
+    RT                  Right Turbo type attacks
+    LT                  Left Turbo type attacks
+    BT                  Both Turbo simultaneously type attacks
+
+[w] weapon command sets:
+    RW                  Right Weapon
+    LW                  Left Weapon
+    CW                  Center Weapon
+
+[m] modifier command sets:
+    Cr                  Crouch (below are same movement)
+     \| G               Guard
+      | Gr              Cancel Buffer / Guard Reversal
+    J                   Jumping
+
+Legal button command chording (3.33*):
+    [w]
+    [m][w]
+
+Legal RANGEd button command chording (5.2+):
+    [w]
+    [m][w]
+    [t][w]
+    [m][t][w]
+
+Legal MELEE button command chording:
+   [w]                  A normal attack. (Guard-able)
+   Cr[w]                A crouching attack. (UnBLOCKable and Knockdown)
+   LT[w]                A melee legal RANGEd attack. (UnBLOCKable)
+   RT[w]                A turbo attack. (UnGUARDable and Knockdown)
+   Gr[w]                A Guard-Reversal attack. (Guard-able)
+
+=============================================================
+Part III: English
+=============================================================
+
+//---------------------//
+//  3.1. Introduction  //
+//---------------------//
+
+An introduction to the English speaking Virtual-On community would be an
+interesting one. The Internet has been the most important influence, via
+facilitation, bringing together the scattered groups of VO lovers and
+creating a strengthened culture. Virtual-On is very much a cultural game,
+with its strange multilingual terminology and perfection driven gameplay.
+The English community has often imported, wholesale, techniques and
+strategies from other groups; however, at the same time seperated (and later
+integrated) English groups have discovered the very "learned" techniques and
+strategies themselves. This is all because Virtual-On isn't a
+popular/well-known game like Street Fighter or Tekken.
+
+But I have digressed. This section is an interesting section because I hope
+to include all older terminology imported or integrated, and in the future
+update to include newer terms. This won't cement terms, but it will give
+easy access to learning them.
+
+//-----------------------//
+//  3.1. Control Schema  //
+//-----------------------//
+

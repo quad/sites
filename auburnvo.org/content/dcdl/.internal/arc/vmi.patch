@@ -1,0 +1,238 @@
+diff -Naur vmi-20000813/util.h vmi-work/util.h
+--- vmi-20000813/util.h	Sun Aug 13 14:20:54 2000
++++ vmi-work/util.h	Sat Nov 17 11:10:47 2001
+@@ -35,6 +35,9 @@
+ 
+ // New "Big Endian friendly" Macros by MORB
+ 
++#define DO_OLD_ENDIAN
++#ifndef DO_OLD_ENDIAN
++
+ #ifdef BIG_ENDIAN
+     /* convert a 2 byte array to int */
+     #define C2TOI(c) ((((c[1] & 0xff) << 8) | (c[0] & 0xff)) & 0xffff)
+@@ -53,6 +56,7 @@
+                              ((c[2] & 0xff) <<  8) | (c[3] & 0xff)) & 0xffffffff)
+ #endif
+ 
++#else
+ 
+ /* The old macros... I don't understand. In vmi.h, they state that
+      things are stored in little endian in the vmi file, which indeed turns
+@@ -69,7 +73,6 @@
+      and it did produce the right values! - what do you think leo? - RM
+ */
+ 
+-/*
+ #ifdef BIG_ENDIAN
+     // convert a 2 byte array to int
+     #define C2TOI(c) (((c[0] & 0xff) << 8) + (c[1] & 0xffff))
+@@ -87,6 +90,7 @@
+                                          ((c[2] & 0xff) << 16) + \
+                              ((c[1] & 0xff) <<  8) + (c[0] & 0xff)) & 0xffffffff)
+ #endif
+-*/
++
++#endif
+ 
+ #endif _UTIL_H_
+diff -Naur vmi-20000813/vmi.c vmi-work/vmi.c
+--- vmi-20000813/vmi.c	Sun Aug 13 14:20:54 2000
++++ vmi-work/vmi.c	Sat Nov 17 11:16:09 2001
+@@ -121,22 +121,22 @@
+     }
+ 
+     /* print all of the known vmi file information */
+-    printf("-- visual memory information ------------------------------------\n");
+-    printf("title      : %.32s\n", data.title);
+-    printf("creator    : %.32s\n", data.creator);
+-    printf("vms date   : %4d/%02d/%02d %02d:%02d:%02d\n",
++    fprintf(stderr, "-- visual memory information ------------------------------------\n");
++    fprintf(stderr, "title      : %.32s\n", data.title);
++    fprintf(stderr, "creator    : %.32s\n", data.creator);
++    fprintf(stderr, "vms date   : %4d/%02d/%02d %02d:%02d:%02d\n",
+                  C2TOI(data.year),
+      data.month, data.day, data.hour, data.minute, data.second);
+-    printf("resource   : %.8s\n", data.resource);
+-    printf("vms file   : %.12s\n", data.file);
+-    printf("vms type   : %s ($%x)\n", ((data.type==0x03)||(data.type==0x02))?"GAME":"DATA", data.type); // again modifyed by RM to handle copyable games
+-    printf("protected  : %s\n",((data.type&1)==1)?"YES":"NO"); // added by RM
+-    printf("vms size   : %d\n", C2TOI(data.size));
+-    printf("# of files : %d\n", C2TOI(data.count));
+-    printf("checksum   : SEGA: %s, AGES: %s\n", 
++    fprintf(stderr, "resource   : %.8s\n", data.resource);
++    fprintf(stderr, "vms file   : %.12s\n", data.file);
++    fprintf(stderr, "vms type   : %s ($%x)\n", ((data.type==0x03)||(data.type==0x02))?"GAME":"DATA", data.type); // again modifyed by RM to handle copyable games
++    fprintf(stderr, "protected  : %s\n",((data.type&1)==1)?"YES":"NO"); // added by RM
++    fprintf(stderr, "vms size   : %d\n", C2TOI(data.size));
++    fprintf(stderr, "# of files : %d\n", C2TOI(data.count));
++    fprintf(stderr, "checksum   : SEGA: %s, AGES: %s\n", 
+                  checksum(data.checksum, data.resource, SEGA) ? "ok" : "failed",
+                  checksum(data.checksum, data.resource, AGES) ? "ok" : "failed");
+-    printf("-----------------------------------------------------------------\n");
++    fprintf(stderr, "-----------------------------------------------------------------\n");
+ }
+ 
+ /**
+@@ -301,14 +301,14 @@
+     /* generate checksum */
+     switch(checksum) {
+     case AGES:
+-        printf("creating AGES checksum ...\n");
++        fprintf(stderr, "creating AGES checksum ...\n");
+         data.checksum[0] = 'A' & data.resource[0];
+         data.checksum[1] = 'G' & data.resource[1];
+         data.checksum[2] = 'E' & data.resource[2];
+         data.checksum[3] = 'S' & data.resource[3];
+         break;
+     case SEGA|AGES:
+-        printf("creating combined SEGA/AGES checksum ...\n");
++        fprintf(stderr, "creating combined SEGA/AGES checksum ...\n");
+         if((data.resource[0] & 'S') == (data.resource[0] & 'A') &&
+              (data.resource[1] & 'E') == (data.resource[1] & 'G') &&
+              (data.resource[2] & 'G') == (data.resource[2] & 'E') &&
+@@ -319,9 +319,9 @@
+             data.checksum[3] = 'A' & 'S' & data.resource[3];
+             break;
+         }
+-        printf("warning: cannot create combined SEGA/AGES checksum\n");
++        fprintf(stderr, "warning: cannot create combined SEGA/AGES checksum\n");
+     default:
+-        printf("creating SEGA checksum ...\n");
++        fprintf(stderr, "creating SEGA checksum ...\n");
+         data.checksum[0] = 'S' & data.resource[0];
+         data.checksum[1] = 'E' & data.resource[1];
+         data.checksum[2] = 'G' & data.resource[2];
+@@ -334,9 +334,9 @@
+ 
+     /* warn befor overwriting the file */
+     if(!stat(vmi, &vmi_stat))
+-        printf("overwriting vmi file \"%s\" ...\n", vmi);
++        fprintf(stderr, "overwriting vmi file \"%s\" ...\n", vmi);
+     else
+-        printf("creating new vmi file \"%s\" ...\n", vmi);
++        fprintf(stderr, "creating new vmi file \"%s\" ...\n", vmi);
+ 
+ 
+     /* write data to file */
+diff -Naur vmi-20000813/vms.c vmi-work/vms.c
+--- vmi-20000813/vms.c	Sun Aug 13 14:20:54 2000
++++ vmi-work/vms.c	Sat Nov 17 11:16:05 2001
+@@ -91,22 +91,22 @@
+   int size = vms_read(vmsfname, &data, &header);
+   if(size < 0) exit(-size);
+ 
+-  printf("-- vms information ----------------------------------------------\n");
+-  printf("vmu description: %-16.16s\n", header.vmu_description);
+-  printf("rom description: %-32.32s\n", header.rom_description);
+-  printf("creator        : %-16.16s\n", header.creator);
+-  printf("# of icons     : %d\n", C2TOI(header.icon_count));
+-  printf("animation speed: %d\n", C2TOI(header.anim_speed));
+-  printf("eyecatch type  : %d\n", C2TOI(header.eyecatch));
+-  printf("checksum       : $%x %s\n", C2TOI(header.checksum),
++  fprintf(stderr, "-- vms information ----------------------------------------------\n");
++  fprintf(stderr, "vmu description: %-16.16s\n", header.vmu_description);
++  fprintf(stderr, "rom description: %-32.32s\n", header.rom_description);
++  fprintf(stderr, "creator        : %-16.16s\n", header.creator);
++  fprintf(stderr, "# of icons     : %d\n", C2TOI(header.icon_count));
++  fprintf(stderr, "animation speed: %d\n", C2TOI(header.anim_speed));
++  fprintf(stderr, "eyecatch type  : %d\n", C2TOI(header.eyecatch));
++  fprintf(stderr, "checksum       : $%x %s\n", C2TOI(header.checksum),
+ 	 C2TOI(header.checksum) == 
+ 	 check_crc(data, 0x80 + C2TOI(header.icon_count) * 512 +
+ 			 (C2TOI(header.eyecatch) == 0 ? 0 :
+ 			  (C2TOI(header.eyecatch) == 1 ? 8064 :
+ 			   (C2TOI(header.eyecatch) == 2 ? 4544 : 2048))) +
+ 			 C4TOI(header.data_size)) ? "ok" : "failed");
+-  printf("data size      : %d\n", C4TOI(header.data_size));
+-  printf("-----------------------------------------------------------------\n");
++  fprintf(stderr, "data size      : %d\n", C4TOI(header.data_size));
++  fprintf(stderr, "-----------------------------------------------------------------\n");
+ 
+   if(command != NULL && strlen(command) > 0) {
+     char *gif = (char *)malloc(strlen(vmsfname) + 5);
+@@ -145,7 +145,7 @@
+ 
+   char *pipe = (char *) malloc(strlen(command) + strlen(file) + 10);
+   sprintf(pipe, command, C2TOI(header.anim_speed) * 10, file);
+-  printf("info: writing to pipe: %s\n", pipe);
++  fprintf(stderr, "info: writing to pipe: %s\n", pipe);
+ 
+   if((icon_fp = popen(pipe, "w")) == NULL) {
+     fprintf(stderr, "error: error running command: %s\n", pipe);
+diff -Naur vmi-20000813/vmu.c vmi-work/vmu.c
+--- vmi-20000813/vmu.c	Sun Aug 13 14:20:54 2000
++++ vmi-work/vmu.c	Sat Nov 17 11:16:12 2001
+@@ -39,25 +39,25 @@
+  * display a help message with possible options and syntax
+  */
+ void help(char *prog) {
+-  printf("usage: %s [options] [file]\n\n", prog);
+-  printf("to view info contained in a VMI file:\n");
+-  printf("  -i         view information contained in vmi or vms file\n");
+-  printf("  -p command    use command as converter for VMS icons\n");
+-  printf("\n");
+-  printf("to create a new vmi file from an VMS file:\n");
+-  printf("  -r name    the file name of the resource (8 chars)\n");
+-  printf("  -f name    the file name as seen on the VMU (12 chars)\n");
+-  printf("  -d text    description of the file (32 chars)\n");
+-  printf("  -c text    author and copyright (32 chars)\n"); 
+-  printf("  -s        create SEGA checksum\n"); 
+-  printf("  -a        create AGES checksum\n"); 
+-  printf("  -g        set file type to GAME\n");
+-  printf("  -y        set copy protected flag\n"); // added by RM - "p" would be my first choice, but that's used for a converter...
+-  printf("\n");
+-  printf("  -v        display software version\n");
+-  printf("  -h        this help text\n");
+-  printf("\n");
+-  printf("please read the documentation to learn more about the options.\n");
++  fprintf(stderr, "usage: %s [options] [file]\n\n", prog);
++  fprintf(stderr, "to view info contained in a VMI file:\n");
++  fprintf(stderr, "  -i         view information contained in vmi or vms file\n");
++  fprintf(stderr, "  -p command    use command as converter for VMS icons\n");
++  fprintf(stderr, "\n");
++  fprintf(stderr, "to create a new vmi file from an VMS file:\n");
++  fprintf(stderr, "  -r name    the file name of the resource (8 chars)\n");
++  fprintf(stderr, "  -f name    the file name as seen on the VMU (12 chars)\n");
++  fprintf(stderr, "  -d text    description of the file (32 chars)\n");
++  fprintf(stderr, "  -c text    author and copyright (32 chars)\n"); 
++  fprintf(stderr, "  -s        create SEGA checksum\n"); 
++  fprintf(stderr, "  -a        create AGES checksum\n"); 
++  fprintf(stderr, "  -g        set file type to GAME\n");
++  fprintf(stderr, "  -y        set copy protected flag\n"); // added by RM - "p" would be my first choice, but that's used for a converter...
++  fprintf(stderr, "\n");
++  fprintf(stderr, "  -v        display software version\n");
++  fprintf(stderr, "  -h        this help text\n");
++  fprintf(stderr, "\n");
++  fprintf(stderr, "please read the documentation to learn more about the options.\n");
+ }
+ 
+ /**
+@@ -70,8 +70,8 @@
+   char *resource = NULL, *vmufname = NULL, *command = NULL;
+ 
+   /* print copyright information */
+-  printf("vmu data creator (c) 1999,2000 by VirtuaMUnstaz\n");
+-  printf("check out other VMU applications: http://VirtuaMUnstaz.de/\n");
++  fprintf(stderr, "vmu data creator (c) 1999,2000 by VirtuaMUnstaz\n");
++  fprintf(stderr, "check out other VMU applications: http://VirtuaMUnstaz.de/\n");
+ 
+   /* check arguments and select appropriate action */
+   while(1) {
+@@ -113,14 +113,14 @@
+     
+     break;
+       case 'v': /* print revision of sub modules */
+-    printf("  $Id: vmu.c,v 2.7 2000/07/03 12:24:32 leo Exp $\n  %s\n  %s\n",
++    fprintf(stderr, "  $Id: vmu.c,v 2.7 2000/07/03 12:24:32 leo Exp $\n  %s\n  %s\n",
+            vmi_revision(), vms_revision());
+     exit(0);
+       case 'h': /* display help */
+     help(argv[0]);
+     exit(0);
+       default:
+-    printf("unknown option: %c\n", c);
++    fprintf(stderr, "unknown option: %c\n", c);
+     }
+   }
+ 

@@ -1,0 +1,19 @@
+<!-- vo/template/body-start.shtml -->
+
+<body onLoad="MM_preloadImages('/images/layout/menu_roster_over.gif','/images/layout/menu_gallery_over.gif','/images/layout/menu_content_over.gif','/images/layout/menu_forum_over.gif','/images/layout/menu_links_over.gif')">
+
+  <!-- Top banner segment -->
+<!--  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+-->
+
+  <table class="banner" width="100%" cellspacing="0" cellpadding="0">
+    <tr> 
+      <!-- I hate pixel widths, but we must format the images properly. -->
+      <td width="200"><a href="http://auburnvo.org/"><img src="/images/layout/avc_logo.gif" alt="AVC Logo" width="200" height="94"></a></td>
+      <td class="middle" width="80%">&nbsp;</td>
+      <td width="415"><img src="/images/layout/vrs.gif" alt="Three sexy VRs" width="415" height="94"></td>
+    </tr>
+  </table>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr> 

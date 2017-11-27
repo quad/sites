@@ -1,0 +1,35 @@
+<!-- meets/20020124/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font><br>at 4pm&nbsp;-&nbsp;9pm</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        1025 NW Gilman Boulevard<br>
+        Issaquah, 98027
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Scott Robinson<br>
+        (425) 432-3532
+      </td>
+    </tr>
+  </table>

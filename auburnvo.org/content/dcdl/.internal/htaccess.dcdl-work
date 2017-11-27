@@ -1,0 +1,4 @@
+Options None
+AddType application/x-dreamcast-vms-info VMI
+AddType application/x-dreamcast-vms VMS
+AddType application/x-dreamcast-dci DCI

@@ -1,0 +1,383 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./m102-rp_files/filelist.xml">
+<link rel=OLE-Object-Data href="./m102-rp_files/oledata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Applied Regression: A Study in to Virtual-On's Damage Model</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>B. Alex Robinson</o:Author>
+  <o:LastAuthor>B. Alex Robinson</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>983</o:TotalTime>
+  <o:LastPrinted>2001-06-04T09:15:00Z</o:LastPrinted>
+  <o:Created>2001-06-04T09:44:00Z</o:Created>
+  <o:LastSaved>2001-06-04T09:44:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>768</o:Words>
+  <o:Characters>4381</o:Characters>
+  <o:Lines>36</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>5380</o:CharactersWithSpaces>
+  <o:Version>9.3821</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h3
+	{mso-style-next:Normal;
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;}
+h4
+	{mso-style-next:Normal;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-header:url("./m102-rp_files/header.htm") h1;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=EN-US style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h1 align=center style='text-align:center'>Applied Regression: A Study in to
+Virtual-On’s Damage Model</h1>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<h4>Scott Robinson</h4>
+
+<p class=MsoNormal align=center style='text-align:center'><i>Monday, June 04,
+2001<o:p></o:p></i></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal>Conclusion: Contrary to the Virtual-On playing community
+belief, variations in damage amounts during game play do not occur based on
+weapon types or playing stage – but rather the duration of a match.</p>
+
+<span style='font-size:12.0pt;font-family:"Times New Roman";mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:EN-US;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA'><br clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Virtual-On:
+Oratorio Tangram (VOOT) is an action/versus fighting video game for Sega’s
+Dreamcast console gaming platform. The game itself has developed a following
+worldwide due to its innovative game play and full three-dimensional
+environment. In the Pacific Northwest area, there are a variety of game play
+leagues. I administrate the Auburn Virtual-On Club and am active in the
+worldwide Virtual-On: Reverse Engineering Project. (VO: REP)</p>
+
+<h1 style='text-align:justify;line-height:150%'>Data Points: Reasoning</h1>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>As
+a member of the Virtual-On: Reverse Engineering Project, one of my tasks is to
+gather, record, and reverse engineer data from the original game. We have
+reached a phase where a deeper understand of the damage calculation algorithms
+is necessary. Because this coincided with the “research paper,” a combination
+of my assignments seemed prudent.</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>In
+previous statistical models used by the VO: REP, it was originally thought VOOT
+varied damage between players based on the types of weapons used as well as the
+locale of two opponents. I decided to scientifically test this model via
+varying locale and weapon type.</p>
+
+<h2>Factoring Out the Locale:</h2>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Experimentally
+testing the effect of locale upon damage values was simple. Two situations, the
+“control” and “experimental”, were formed for the testing. Historically, a
+locale known as “Space Dock” has been chosen because of its lack of game
+environment changes. For the similar historical reasons, the Virtuaroid
+“Temjin” was used as the control. </p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>A
+radically different locale was necessary for the experimental group. The group
+used a locale known as “Undersea Plant,” which includes a variety of
+environmental factors; the most important factor being the entire locale is
+submerged in an unidentified ocean.</p>
+
+<div align=center>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;line-height:150%'><!--[if gte vml 1]><v:shapetype
+   id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+   path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+   <v:stroke joinstyle="miter"/>
+   <v:formulas>
+    <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+    <v:f eqn="sum @0 1 0"/>
+    <v:f eqn="sum 0 0 @1"/>
+    <v:f eqn="prod @2 1 2"/>
+    <v:f eqn="prod @3 21600 pixelWidth"/>
+    <v:f eqn="prod @3 21600 pixelHeight"/>
+    <v:f eqn="sum @0 0 1"/>
+    <v:f eqn="prod @6 1 2"/>
+    <v:f eqn="prod @7 21600 pixelWidth"/>
+    <v:f eqn="sum @8 21600 0"/>
+    <v:f eqn="prod @7 21600 pixelHeight"/>
+    <v:f eqn="sum @10 21600 0"/>
+   </v:formulas>
+   <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+   <o:lock v:ext="edit" aspectratio="t"/>
+  </v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:190.5pt;
+   height:138.75pt' o:ole="">
+   <v:imagedata src="./m102-rp_files/image001.wmz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=254 height=185
+  src="./m102-rp_files/image002.gif" v:shapes="_x0000_i1025"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="MSWorks4Sheet" ShapeID="_x0000_i1025"
+    DrawAspect="Content" ObjectID="_1053127828">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;line-height:150%'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1026" type="#_x0000_t75" style='width:195.75pt;height:138.75pt'
+   o:ole="">
+   <v:imagedata src="./m102-rp_files/image003.wmz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=261 height=185
+  src="./m102-rp_files/image004.gif" v:shapes="_x0000_i1026"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="MSWorks4Sheet" ShapeID="_x0000_i1026"
+    DrawAspect="Content" ObjectID="_1053127829">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Surprisingly,
+locale and environmental factors appeared to have no direct affect upon damage.
+The factoring out of locale simplifies the reverse engineering work and also
+disproves a common mis-belief, which had been negatively affecting our previous
+model and simulations.</p>
+
+<h2 style='text-align:justify;line-height:150%'>Factoring Out the Weapon Type:</h2>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Experimentally
+testing the effect of weapon types upon damage values proceeded in a fashion
+similar to the locale experiment. However, the weapons types were controlled instead
+of varying the locale and environmental factors. For experimental and
+historical consistency, “Space Dock” again was the chosen locale for the weapon
+tests.</p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>The
+two Virtuaroids varied between were “Temjin” and “Grys-Vok.” Temjin and
+Grys-Vok are, respectively, both classical examples of projectile and explosive
+based weaponry.</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'><!--[if gte vml 1]><v:shape
+ id="_x0000_i1027" type="#_x0000_t75" style='width:201pt;height:138.75pt'
+ o:ole="">
+ <v:imagedata src="./m102-rp_files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=268 height=185
+src="./m102-rp_files/image006.gif" v:shapes="_x0000_i1027"><![endif]><!--[if gte mso 9]><xml>
+ <o:OLEObject Type="Embed" ProgID="MSWorks4Sheet" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1053127830">
+ </o:OLEObject>
+</xml><![endif]--></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>A
+comparison in the data between Temjin and Grys-Vok rules out the factor of
+weapon type being the direct cause of damage variation.</p>
+
+<h1 style='text-align:justify;line-height:150%'>Scatter Plot: Determination</h1>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Had
+the data collection not taken into account time indexing, the researcher would
+have been quite dejected. Nevertheless, after the empirical evidence disproved
+the initial hypothesis model, a new trend was noticed within. All others factors
+accounted for, the logical conclusion for the experimental factor was the time
+index into a single game round. Further testing in all other accessible locales
+supported this hypothesis.</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<div align=center>
+
+<table border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ mso-padding-alt:0in 5.4pt 0in 5.4pt'>
+ <tr>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;line-height:150%'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1028" type="#_x0000_t75" style='width:212.25pt;height:162pt'
+   o:ole="">
+   <v:imagedata src="./m102-rp_files/image007.wmz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=283 height=216
+  src="./m102-rp_files/image008.gif" v:shapes="_x0000_i1028"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="MSWorks4Sheet" ShapeID="_x0000_i1028"
+    DrawAspect="Content" ObjectID="_1053127831">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+  <td valign=top style='padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='text-align:justify;line-height:150%'><!--[if gte vml 1]><v:shape
+   id="_x0000_i1029" type="#_x0000_t75" style='width:230.25pt;height:162pt'
+   o:ole="">
+   <v:imagedata src="./m102-rp_files/image009.wmz" o:title=""/>
+  </v:shape><![endif]--><![if !vml]><img width=307 height=216
+  src="./m102-rp_files/image010.gif" v:shapes="_x0000_i1029"><![endif]><!--[if gte mso 9]><xml>
+   <o:OLEObject Type="Embed" ProgID="MSWorks4Sheet" ShapeID="_x0000_i1029"
+    DrawAspect="Content" ObjectID="_1053127832">
+   </o:OLEObject>
+  </xml><![endif]--></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>The
+above scatter plots are scaled to elucidate the shifts between projectile and
+explosive damage quantities. It appears a linear equation would the best
+estimate for both damage types.</p>
+
+<h1 style='text-align:justify;line-height:150%'>Regression: Reverse Engineering</h1>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>After
+linear regression is performed, an interesting similarity between the data sets
+is revealed. Both have a co-relation coefficient of 0.9304. </p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'>(attached graphs
+“Relative Projectile Damage - Regression” and “Relative Explosive Damage -
+Regression”)</p>
+
+<p class=MsoNormal style='text-align:justify;line-height:150%'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>The
+importance of the two co-relation coefficients being, with deference to
+significant figures, exactly the same is only meaningful when the two models
+are compared. If a single damage variance model is used within the game, any
+linear regression of a particular weapon will result in a stable form of
+equation. In fact, since the y-intercept refers to the base weapon damage and
+the differences between the measured damage quantities is so minute, the slopes
+too should be roughly the same. The similarity of the both coefficients and
+slopes encourages this researcher his data collection was accurate.</p>
+
+<h1 style='text-align:justify;line-height:150%'>Benefit: A New Model…</h1>
+
+<p class=MsoNormal style='text-align:justify;text-indent:.5in;line-height:150%'>Unfortunately,
+the regression ascertained equation offers little use for the VO: REP project.
+The explosive model wrongly predicts at time index 100 a typical explosive will
+eliminate nine percent of a Virtuaroid’s amour. Further study of the collected
+data suggests, rather than a linear equation, the game uses a step function
+based on a percentage of the base weapon damage.</p>
+
+<p class=MsoBodyText style='text-indent:.5in;line-height:150%'>In future
+research, I intend on a full reverse engineer of the step equation. In the
+present, though, the linear regression does offer a game player a mental method
+of forecasting their weapon damages in game play. And in the end, Virtual-On is
+only a game.</p>
+
+</div>
+
+</body>
+
+</html>

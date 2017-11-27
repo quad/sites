@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>Auburn VO Crew: Spring Tournament 2002 Players List</title>
+
+<!--#include virtual="../../template/head.shtml" -->
+
+<!--
+    meets/spring2002/players.shtml
+
+    The players list for the Spring 2002 tournament.
+
+    Tue May 21 15:06:17 PDT 2002
+        Updated with Spring 2002 Player list.
+
+-->
+</head>
+
+<!--#include virtual="../../template/body-start.shtml" -->
+
+<!--#include virtual="../../template/sidebar-start.shtml" -->
+
+  <!--#include virtual="sidebar.shtml" -->
+
+  <hr noshade>
+
+<!--#include virtual="../../template/sidebar-end.shtml" -->
+
+<!--#include virtual="../../template/content-start.shtml" -->
+
+<a name="ranking"></a>
+
+    <h1>Final Ranking</h1>
+
+    <ol>
+
+        <li>Scott Robinson (<i>Raiden & Angelan</i>)</li>
+        <li>Michael Sterns (<i>Dordray</i>)</li>
+        <li>Matt Gehr (<i>Apharmd B</i>)</li>
+
+    </ol>
+
+<hr>
+
+<a name="players"></a>
+
+    <h1>Players List (<i>incomplete</i>)</h1>
+
+    <ol>
+
+        <li>Dave Wilson</li>
+        <li>Tom Music</li>
+        <li>Jason Chase</li>
+        <li>Matt Gehr</li>
+        <li>Scott Francis</li>
+        <li>Scott Robinson</li>
+        <li>Summer Robinson</li>
+        <li>Yukimune Kawamatsu</li>
+        <li>Mark Gehr</li>
+        <li>Sam Gibson</li>
+        <li>Michael Sterns</li>
+        <li>Scott Margerum</li>
+        <li>Chase Tornow</li>
+
+    </ol>
+
+<hr>
+
+<!--#include virtual="../../template/content-end.shtml" -->
+
+<!--#include virtual="../../template/body-end.shtml" -->
+
+</html>

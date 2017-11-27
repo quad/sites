@@ -1,0 +1,35 @@
+<!-- meets/20021003/sidebar.shtml --> 
+  <table class="sidebar" cellspacing="1" cellpadding="1">
+    <tr>
+      <td align="right">
+        <b>Current Status: <font color="#FFFFFF">DONE</font><br>at 5pm&nbsp;-&nbsp;10pm</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Gathering Location:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        2410 E. Lynn St. #107<br>
+        Seattle, WA 98112
+      </td>
+    </tr>
+
+    <tr>
+      <td align="right">
+        <b>Organizer Contact:</b>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Matt Gehr<br>
+        (206) 324-0904<br>
+        Code: #07
+      </td>
+    </tr>
+  </table>

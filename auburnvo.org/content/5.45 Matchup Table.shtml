@@ -1,0 +1,502 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Auburn Virtual On Crew - 5.45 Matchup Table</title>
+
+<!--#include virtual="../template/head.shtml" -->
+
+<!--
+    content/5.45 Matchup Table.html
+
+    Based on the core AVC layout (http://auburnvo.org/)
+
+    The 5.45 Health Matchup Table
+
+    History:
+
+    Mon Oct  7 12:02:58 PDT 2002    SSR
+        Created and imported from original table.
+
+-->
+
+</head>
+
+<!--#include virtual="../template/body-start.shtml" -->
+
+<!--#include virtual="../template/sidebar-start.shtml" -->
+
+    <!--#include virtual="update/content.shtml" -->
+
+<!--#include virtual="../template/sidebar-end.shtml" -->
+
+<!--#include virtual="../template/content-start.shtml" -->
+
+<table border="2">
+           <thead>
+               <tr>
+                 <th>vs. Health<br>
+                 </th>
+                 <th>Raiden<br>
+                 </th>
+                 <th>Grys-Vok<br>
+                 </th>
+                 <th>Temjin<br>
+                 </th>
+                 <th>Apharmd B<br>
+                 </th>
+                 <th>Apharmd S<br>
+                 </th>
+                 <th>Specineff<br>
+                 </th>
+                 <th>Dordray<br>
+                 </th>
+                 <th>Fei-Yen Kn<br>
+                 </th>
+                 <th>Cypher<br>
+                 </th>
+                 <th>Bal-bados<br>
+                 </th>
+                 <th>Angelan<br>
+                 </th>
+                 <th>Ajim<br>
+                 </th>
+               </tr>
+           </thead>   
+           <tbody>
+               <tr>
+                 <th>Raiden<br>
+                 </th>
+                 <td>1200<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1350<br>
+                 </td>
+                 <td>1150<br>
+                 </td>
+                 <td>1550<br>
+                 </td>
+                 <td>1105<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Grys-Vok<br>
+                 </th>
+                 <td>1000<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1170<br>
+                 </td>
+                 <td>1350<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1250<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1250<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Temjin<br>
+                 </th>
+                 <td>1000<br>
+                 </td>
+                 <td>1250<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1250<br>
+                 </td>
+                 <td>1170<br>
+                 </td>
+                 <td>975<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1050<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Apharmd B<br>
+                 </th>
+                 <td>1320<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1350<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1350<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Apharmd S<br>
+                 </th>
+                 <td>1000<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1075<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1075<br>
+                 </td>
+                 <td>1080<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1080<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Specineff<br>
+                 </th>
+                 <td>800<br>
+                 </td>
+                 <td>700<br>
+                 </td>
+                 <td>800<br>
+                 </td>
+                 <td>700<br>
+                 </td>
+                 <td>850<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>650<br>
+                 </td>
+                 <td>950<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>750<br>
+                 </td>
+                 <td>800<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Dordray<br>
+                 </th>
+                 <td>1200<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td>1150<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>1275<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1300<br>
+                 </td>
+                 <td>1250<br>
+                 </td>
+                 <td>1150<br>
+                 </td>
+                 <td>1200<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Fei-Yen Kn<br>
+                 </th>
+                 <td>660<br>
+                 </td>
+                 <td>800<br>
+                 </td>
+                 <td>780<br>
+                 </td>
+                 <td>760<br>
+                 </td>
+                 <td>780<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>750<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>950<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Cypher<br>
+                 </th>
+                 <td>650<br>
+                 </td>
+                 <td>650<br>
+                 </td>
+                 <td>680<br>
+                 </td>
+                 <td>590<br>
+                 </td>
+                 <td>760<br>
+                 </td>
+                 <td>900<br>
+                 </td>
+                 <td>650<br>
+                 </td>
+                 <td>850<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>690<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Bal-bados<br>
+                 </th>
+                 <td>900<br>
+                 </td>
+                 <td>900<br>
+                 </td>
+                 <td>900<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td>920<br>
+                 </td>
+                 <td>1130<br>
+                 </td>
+                 <td>950<br>
+                 </td>
+                 <td>950<br>
+                 </td>
+                 <td>977<br>
+                 </td>
+                 <td>900<br>
+                 </td>
+                 <td>1100<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Angelan<br>
+                 </th>
+                 <td>720<br>
+                 </td>
+                 <td>720<br>
+                 </td>
+                 <td>700<br>
+                 </td>
+                 <td>660<br>
+                 </td>
+                 <td>750<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>800<br>
+                 </td>
+                 <td>850<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td>750<br>
+                 </td>
+                 <td>1000<br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Ajim<br>
+                 </th>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+                 <td><br>
+                 </td>
+               </tr>
+           </tbody>           
+</table>
+
+<br>
+
+<table border="2">
+           <thead>     
+             <tr>
+                 <th><br>
+                 </th>
+                 <th>V.Armour<br>
+                 </th>
+             </tr>
+           </thead>
+           <tbody>
+               <tr>
+                 <th>Raiden<br>
+                 </th>
+                 <td>1100<br>
+                 </td>
+                 <td valign="center" rowspan="13"><a
+                 href="http://voot.sourceforge.net/"><img
+                 src="5.45%20Matchup%20Table.jpeg" alt="A pretty screenshot
+                 of a debug OSD." width="640" height="449"></a>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Grys-Vok<br>
+                 </th>
+                 <td>800<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Temjin<br>
+                 </th>
+                 <td>750<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Apharmd B<br>
+                 </th>
+                 <td>850<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Apharmd S<br>
+                 </th>
+                 <td>850<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Specineff<br>
+                 </th>
+                 <td>550<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Dordray<br>
+                 </th>
+                 <td>1300<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Fei-Yen Kn<br>
+                 </th>
+                 <td>550<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Cypher<br>
+                 </th>
+                 <td>350<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Bal-bados<br>
+                 </th>
+                 <td>700<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Angelan<br>
+                 </th>
+                 <td>1250<br>
+                 </td>
+               </tr>
+               <tr>
+                 <th>Ajim<br>
+                 </th>
+                 <td><br>
+                 </td>
+               </tr>
+           </tbody>           
+</table>
+
+
+<!--#include virtual="../template/content-end.shtml" -->
+
+<!--#include virtual="../template/body-end.shtml" -->
+
+</html>

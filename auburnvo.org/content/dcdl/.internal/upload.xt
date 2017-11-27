@@ -1,0 +1,21 @@
+# XT
+# Handle normal VMS files from Upload Archives
+
+# Image
+
+$vms_info_image = "<IMG SRC=\"?mode=imager&file=" . $vms_file_base . "\" ALT=\"VMS Icon\" ALIGN=\"middle\" WIDTH=32 HEIGHT=32>\n";
+
+# Auto-download
+
+$vms_file_up_name = $vms_file_base_noxt;
+$vms_file_up_name =~ s/(\d+)-(.+)-upload/\2/;
+
+# VMS
+
+$vms_header_autod .= "<A HREF=\"?name=". $vms_file_up_name . "&format=vms&";
+$vms_header_autod .= "mode=get&file=" . $vms_file_base . "\">(VMS)</A>\n";
+
+# DCI
+
+$vms_header_autod .= "<A HREF=\"?name=". $vms_file_up_name . "&format=dci&";
+$vms_header_autod .= "mode=get&file=" . $vms_file_base . "\">(DCI)</A>\n";

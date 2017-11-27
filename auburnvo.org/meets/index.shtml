@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Auburn Virtual On Crew - Gathering Archive</title>
+
+<!--#include virtual="../template/head.shtml" -->
+
+<!--
+    meets/index.shtml
+
+    Gathering Archive Page.
+
+    History:
+
+    Thu Jun 28 03:41:50 PDT 2001    SSR
+        First version of the archive page.
+
+    Thu Jun 28 12:20:33 PDT 2001    SSR
+        Stabilized paths
+
+    Fri Jun 29 15:37:48 PDT 2001    SSR
+        Converted to template structure.
+
+    Thu Dec 20 15:46:23 PST 2001    SSR
+        Renamed to .shtml for vhosting support.
+
+    Thu Dec 20 18:13:33 PST 2001    SSR
+        I think I just improved the text. Honestly, though, this entire page
+        could do with *something*. Anything!
+
+    Fri Jan 10 10:46:49 PST 2003    SSR
+        And now it has something. The index of old gatherings.
+
+
+-->
+</head>
+
+<!--#include virtual="../template/body-start.shtml" -->
+
+<!--#include virtual="../template/sidebar-start.shtml" -->
+
+    <!--#include virtual="update/gathering.shtml" -->
+
+<!--#include virtual="../template/sidebar-end.shtml" -->
+
+<!--#include virtual="../template/content-start.shtml" -->
+
+    <center>
+
+        <p>
+
+            <img src="images/te-small-style.gif">
+
+        </p>
+
+        <p>
+
+            For location and arrangement information, click on your gathering or
+            interest on the left sidebar.
+
+        </p>
+
+        <table cellspacing="1" cellpadding="1">
+
+            <tr>
+                <td colspan="4">
+                    <div align="left">
+                        The Official Past Gathering List:
+                    </div>
+                    <div align="right">
+                        (<i>El Funcionario Más allá De Recopilar La Lista.</i>)
+                    </div>
+                </td>
+            </tr>
+
+<!-- Year 2000 -->
+
+    <tr class="datelist">
+        <td colspan="3">
+            <b>2000</b>
+        </td>
+    </tr>
+
+    <tr class="datelist">
+        <td colspan="2"><a href="old/vo-20001215.html">12/15/2000</a></td>
+        <td><a href="old/vo-20001230.html">12/30/2000</a></td>
+    </tr>
+
+<!-- Year 2001 -->
+
+    <tr class="datelist">
+        <td colspan="3">
+            <b>2001</b>
+        </td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="old/vo-20010113.html">01/13/2001</a></td>
+        <td><a href="old/vo-superbowl.html">Super Bowl</a></td>
+        <td><a href="old/vo-20010304.html">03/04/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="old/vo-20010310.html">03/10/2001</a></td>
+        <td><a href="old/vo-20010418.html">04/18/2001</a></td>
+        <td><a href="old/vo-20010425.html">04/25/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="old/sakura01.html">Sakura Con</a></td>
+        <td><a href="old/vo-20010509.html">05/09/2001</a></td>
+        <td><a href="old/vo-20010517.html">05/17/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="old/vo-20010524.html">05/24/2001</a></td>
+        <td><a href="old/vo-20010531.html">05/31/2001</a></td>
+        <td><a href="old/vo-20010607.html">06/07/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="old/vo-20010614.html">06/14/2001</a></td>
+        <td><a href="old/vo-20010621.html">06/21/2001</a></td>
+        <td><a href="old/vo-20010628.html">06/28/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20010703.shtml">07/03/2001</a></td>
+        <td><a href="vo-20010714.shtml">07/14/2001</a></td>
+        <td><a href="vo-20010719.shtml">07/19/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20010726.shtml">07/26/2001</a></td>
+        <td><a href="vo-20010801.shtml">08/01/2001</a></td>
+        <td><a href="vo-20010809.shtml">08/09/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20010816.shtml">08/16/2001</a></td>
+        <td><a href="vo-20010823.shtml">08/23/2001</a></td>
+        <td><a href="vo-20010906.shtml">09/06/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20010913.shtml">09/13/2001</a></td>
+        <td><a href="vo-20010920.shtml">09/20/2001</a></td>
+        <td><a href="vo-20010927.shtml">09/27/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20011004.shtml">10/04/2001</a></td>
+        <td><a href="vo-20011007.shtml">10/07/2001</a></td>
+        <td><a href="vo-20011018.shtml">10/18/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20011021.shtml">10/21/2001</a></td>
+        <td><a href="vo-20011025.shtml">10/25/2001</a></td>
+        <td><a href="vo-20011123.shtml">11/23/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20011129.shtml">11/29/2001</a></td>
+        <td><a href="vo-20011206.shtml">12/06/2001</a></td>
+        <td><a href="vo-20011212.shtml">12/12/2001</a></td>
+    </tr>
+
+    <tr class="datelist">
+        <td><a href="vo-20011223.shtml">12/23/2001</a></td>
+        <td><a href="vo-20011226.shtml">12/26/2001</a></td>
+        <td><a href="vo-20011227.shtml">12/27/2001</a></td>
+    </tr>
+
+    <tr>
+        <td colspan="3" align="center"><a href="vo-winter2001.shtml">IZ Winter 2001</a></td>
+    </tr>
+
+<!-- And the future... -->
+
+    <tr>
+        <td colspan="3" align="center">... and beyond ...</td>
+    </tr>
+
+        </table>
+
+    </center>
+
+
+
+<!--#include virtual="../template/content-end.shtml" -->
+
+<!--#include virtual="../template/body-end.shtml" -->
+
+</html>

@@ -1,0 +1,10 @@
+#!/bin/sh
+
+DCDL_ROOT="/accounts/scottr/www/www.auburnvo.org/html/content/dcdl/.internal/"
+DCDL_WORK="${DCDL_ROOT}/work/"
+DCDL_WORK_HT="${DCDL_ROOT}/htaccess.dcdl-work"
+
+/bin/rm -rf ${DCDL_WORK}
+mkdir ${DCDL_WORK}
+chmod og+w ${DCDL_WORK}
+cp ${DCDL_WORK_HT} ${DCDL_WORK}/.htaccess

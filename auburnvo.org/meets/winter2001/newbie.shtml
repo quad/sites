@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>Auburn VO Crew: Winter Tournament 2001 Newbie Tournament Rankings</title>
+
+<!--#include virtual="../../template/head.shtml" -->
+
+<!--
+    meets/winter2001/newbie.shtml
+
+    The Winter 2001 Newbie Tournament Rankings
+
+    Mon Apr  8 16:01:47 PDT 2002    SSR
+        First post!
+
+-->
+</head>
+
+<!--#include virtual="../../template/body-start.shtml" -->
+
+<!--#include virtual="../../template/content-start.shtml" -->
+
+    <!-- So to remove the right alignment needed in every other AVC page. -->
+    </div><div>
+
+    <h1>Player List (<i>in ranking order</i>)</h1>
+
+    <ol>
+
+        <li>Steven Klise</li>
+        <li>Joe Matt</li>
+        <li>John Howe</li>
+        <li>Josh</li>
+        <li>Danele Shoemaker</li>
+        <li>Aaron Scott</li>
+        <li>Derrick</li>
+        <li>Miles</li>
+
+    </ol>
+
+    <hr>
+
+    <h2>Tournament Bracket (bold won)</h2>
+
+    <table cellpadding="0" cellspacing="0">
+
+        <tr>
+
+            <th></th>
+
+        </tr>
+
+        <tr>
+
+          <td bgcolor="fuchsia" rowspan="2">Miles</td>
+            <!-- Center line -->
+            <td bgcolor="silver"><b>Danele Shoemaker</b></td>
+                <td bgcolor="silver" rowspan="2">Danele Shoemaker</td>
+                    <td bgcolor="lime" rowspan="4">John</td>
+                        <td bgcolor="aqua" rowspan="8">Steven</td>
+
+        </tr>
+
+        <tr>
+
+            <!-- Center line -->
+            <td bgcolor="fuchsia">Miles</td>
+
+        </tr>
+
+        <tr>
+
+          <td bgcolor="red" rowspan="2"><b>Aaron Scott</b></td>
+            <!-- Center line -->
+            <td bgcolor="red">Aaron Scott</td>
+                <td bgcolor="lime" rowspan="2"><b>John</b></td>
+
+        </tr>
+
+        <tr>
+
+            <!-- Center line -->
+            <td bgcolor="lime"><b>John Howe</b></td>
+
+        </tr>
+
+        <tr>
+
+          <td bgcolor="yellow" rowspan="2">Derrick</td>
+            <!-- Center line -->
+            <td bgcolor="yellow">Derrick</td>
+                <td bgcolor="blue" rowspan="2">Josh</td>
+                    <td bgcolor="aqua" rowspan="4"><b>Steven</b></td>
+
+        </tr>
+
+        <tr>
+
+            <!-- Center line -->
+            <td bgcolor="blue"><b>Josh</b></td>
+
+        </tr>
+
+        <tr>
+
+          <td bgcolor="white" rowspan="2"><b>Joe Matt</b></td>
+            <!-- Center line -->
+            <td bgcolor="aqua"><b>Steven Klise</b></td>
+                <td bgcolor="aqua" rowspan="2"><b>Steven</b></td>
+
+        </tr>
+
+        <tr>
+
+            <!-- Center line -->
+            <td bgcolor="white">Joe Matt</td>
+
+        </tr>
+
+     </table>
+
+<!--#include virtual="../../template/content-end.shtml" -->
+
+<!--#include virtual="../../template/body-end.shtml" -->
+
+</html>

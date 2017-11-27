@@ -1,0 +1,98 @@
+<!-- content/update/content.shtml -->
+<table class="sidebar" cellpadding="1" cellspacing="1">
+
+<!-- GUIDES AND FAQS -->
+
+  <tr>
+    <td align="right" colspan="2">
+        <b>Guides or FAQs</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="/content/weap_faq/">[5.45]<br>Weapons Data</a>
+    </td>
+
+    <td>
+      <a href="/content/faqs-txt/vootccfaq.txt">[5.4+]<br>CC Guide</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <a href="/content/5.45%20Matchup%20Table.shtml">[5.45]<br>Health Matchup Table</a>
+    </td>
+  </tr>
+
+<!-- TRANSLATIONS -->
+
+  <tr>
+    <td align="right" colspan="2">
+        <b>Translations</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="/content/interviews/watari.html">[5.2]<br>Juro Watari</a>
+    </td>
+
+    <td>
+      <a href="/content/interviews/sonoda.html">[5.2]<br>Sonoda Yoshihiro</a>
+    </td>
+  </tr>
+
+<!-- COMEDY -->
+
+  <tr>
+    <td align="right" colspan="2">
+        <b>Comedy</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="/content/applied-vo/m102-rp.html">[5.45]<br>Applied Virtual-On</a>
+    </td>
+
+    <td>
+      <a href="/content/fan/VOFreak.jpg">[3.33]<br>VO Freak</a>
+    </td>
+  </tr>
+
+<!-- RESEARCH AND DEVELOPMENT -->
+
+  <tr>
+    <td align="right" colspan="2">
+        <b>R&amp;D</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="/content/faqs-txt/voomfaq.txt">[3.33]<br>FAQ</a>
+    </td>
+
+    <td>
+      <a href="/content/faqs-txt/vootmtguide.txt">[5.4+]<br>Motion Cancel Guide</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <a href="/content/faqs-txt/ccknocktable.txt">[5.4+]<br>Knockback Table</a>
+    </td>
+
+    <td>
+      <a href="/content/faqs-txt/voinputschema.txt">[All]<br>Input Schema</a>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <a href="/content/faqs-txt/temjinguide.txt">[5.45]<br>Temjin Guide</a>
+    </td>
+  </tr>
+
+</table>

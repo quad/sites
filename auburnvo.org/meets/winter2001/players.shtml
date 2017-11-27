@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<head>
+<title>Auburn VO Crew: Winter Tournament 2001 Players List</title>
+
+<!--#include virtual="../../template/head.shtml" -->
+
+<!--
+    meets/winter2001/players.shtml
+
+    The players list for the Winter 2001 tournament.
+
+    Mon Apr  8 16:04:35 PDT 2002    SSR
+        Fixed for HTML 4 compliance and removed the planning player list.
+
+    Fri Dec 21 12:35:09 PST 2001    SSR
+        Not really a first post. :-(
+
+-->
+</head>
+
+<!--#include virtual="../../template/body-start.shtml" -->
+
+<!--#include virtual="../../template/content-start.shtml" -->
+
+    <!-- So to remove the right alignment needed in every other AVC page. -->
+    </div>
+
+    <h1>Final Ranking</h1>
+
+    <ol>
+
+        <li>Kirk Kosinski (<i>Grys-Vok</i>)</li>
+        <li>Scott Robinson (<i>Raiden</i> &amp; <i>Temjin</i>)</li>
+        <li>Tom Music (<i>Raiden</i> &amp; <i>Fei-Yen Kn</i>)</li>
+
+    </ol>
+
+    <h1>Players List</h1>
+
+    <ol>
+
+        <li>Kirk Kosinski</li>
+        <li>Scott Robinson</li>
+        <li>Tom Music</li>
+        <li>Jason Chase</li>
+        <li>Myles Wood</li>
+        <li>Steven Klise</li>
+        <li>Allan Caparas</li>
+        <li>Matt Gehr</li>
+        <li>Tony Sharma</li>
+        <li>Scott Francis</li>
+        <li>Eric Boughton</li>
+        <li>Dotstry Jackson</li>
+        <li>Kris Rouse</li>
+        <li>Yukimune Kawamatsu</li>
+        <li>James Harsono</li>
+        <li>John Howe</li>
+        <li>Eiji Soma</li>
+        <li>Mark Gehr</li>
+        <li>Sam Gibson</li>
+        <li>Aaron Scott</li>
+
+    </ol>
+
+<!-- Updated during planning
+
+    <h1>Confirmed Players List</h1>
+
+    <ol>
+
+    <h2>Definitly Competing</h2>
+
+        <li>Brent Arnold</li>
+        <li>Danele Shoemaker</li>
+        <li>Dotstry Jackson</li>
+        <li>Eiji Soma</li>
+        <li>Frank Buckley</li>
+        <li>Kirk Kosinski</li>
+        <li>James Harsono</li>
+        <li>Jason Chase</li>
+        <li>Joe Matt</li>
+        <li>Mark Gehr</li>
+        <li>Matt Gehr</li>
+        <li>Matt Grahnik</li>
+        <li>Michael Sterns</li>
+        <li>Sam Gibson</li>
+        <li>Scott Robinson</li>
+        <li>Summer Robinson</li>
+        <li>Tom Music</li>
+        <li>Yukimune Kawamatsu</li>
+
+    <h2>Probably Competing</h2>
+
+        <li>Adam Rutledge</li>
+        <li>Ben Reilly</li>
+        <li>Dave Wilson</li>
+        <li>Kristoffer Rouse</li>
+        <li>Mike Thompson</li>
+        <li>Phong Nguyen</li>
+        <li>Scott Francis</li>
+        <li>Tim (<i>Mark G.'s coworker</i>)</li>
+
+    </ol>
+
+    <ul>
+
+    <h2>Not Likely Competing</h2>
+        <li>Pat Chang</li>
+
+    <h2>Not Competing</h2>
+        <li>Johnson Or</li>
+        <li>Mark Harman</li>
+        <li>Mike Music</li>
+        <li>Nick Saenguraiporn</li>
+    </ul>
+
+-->
+
+    <!-- And bring back the right alignment so we parse HTML 4 compliant. -->
+    <div align="right">
+
+<!--#include virtual="../../template/content-end.shtml" -->
+
+<!--#include virtual="../../template/body-end.shtml" -->
+
+</html>

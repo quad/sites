@@ -1,0 +1,7 @@
+#Options ExecCGI FollowSymLinks
+#AddHandler cgi-script cgi
+#AddType application/x-httpd-cgi pl
+#AddType application/x-dreamcast-vms-info VMI
+#AddType application/x-dreamcast-vms VMS
+#AddType application/x-dreamcast-dci DCI
+DirectoryIndex test.html

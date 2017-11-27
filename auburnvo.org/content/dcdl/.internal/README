@@ -1,0 +1,33 @@
+I'm not one who is very big on README files. Rather, here is the simple
+process of installing DCDL. Make sure you're downloaded and/or patched the
+tools listed in the header of dcdl.pl.
+
+1) Decompress your DCDL archive (dcdl-?.?.tar.*) into a random directory.
+    (~/dcdl/)
+
+2) Create the directory you want on your webserver to host a DCDL Archive.
+    (~/public_html/dcdl/)
+
+3) Create the DCDL "work" directory. This can be shared between multiple
+    DCDL archives. (~/public_html/dcdl/work/)
+
+4) Create the DCDL "data" directory. This holds the .VMS files for your DCDL
+    archive. (~/public_html/dcdl/data/)
+
+5) Create the following symbolic links:
+	~/public_html/dcdl/dcdl.pl -> ~/dcdl/dcdl.pl
+    ~/public_html/dcdl/.htaccess -> ~/dcdl/.htaccess
+
+6) Create a symbolic link to the proper XT handler:
+	~/public_html/dcdl/dir.xt -> ~/dcdl/basic.xt
+
+7) Configure your ~/dcdl/dcdl.pl file with the proper directory locations.
+
+8) Configure your ~/dcdl/clean-dcdl-work with the proper directory locations.
+
+9) Add the following line to your crontab:
+        5 0 * * *       ~/dcdl/clean-dcdl-work
+
+10) Congratulations! You've probably just installed DCDL! If there are any
+     problems, try to figure them out on your own. If you get real
+     desperate, e-mail me at scott_vo@quadhome.com.

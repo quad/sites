@@ -1,0 +1,234 @@
+=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=BETA=
+A motion cancellation guide, with examples, for
+Cybertroopers Virtual-On: Oratorio Tangram
+Versions 5.2 and above
+Release: !!! release info
+Written by: Scott Robinson <scott_vo@dsn.itgo.com>
+=============================================================
+
+Note
+-----
+This should be displayed in mono-space format.
+The dots and numbers should line up.
+
+..........
+1234567890
+
+//---------------//
+//  Legal Stuff  //
+//---------------//
+
+Cybertroopers Virtual-On: Oratorio Tangram and its characters are the
+property of Sega of Japan, Sega of America, and Activision. The above
+authors wrote this guide. We, the authors, are not affiliated with Sega, and
+this guide is not official in any way. We wrote this guide because we felt
+there wasn't enough complete Virtual-On information on the Internet. This
+guide is distributed under the Open Content license
+(http://www.opencontent.org/) with the addition that commercial
+redistribution, republication, or reproducation may be possible with the
+explicit permission of the authors.
+
+Essentially, if you want to make money off this, we want to hear about it.
+
+//-------------------//
+//  Version History  //
+//-------------------//
+
+v0.1 -- !!! insert date?
+First release. Look inside, ok?
+
+=============================================================
+
+Part I: Introduction to ...
+   1.1 ... Virtual-On
+    .2 ... Virtual-On's control system
+    .3 ... Motion Cancels
+
+Part II: The Temjin - MBV-707-G
+Part III: The Raiden - HBV-502-H8 (RVR-75)
+Part IV: The Fei-Yen Kn - RVR-14
+Part V: The Bal-series - XBV-819-tr4
+Part VI: The Grys-Vok - SAV-326-D/9
+Part VII: The Apharmd B - RVR-39
+Part IIX: The Apharmd S - RVR-33
+Part IX: The Specineff - RVR-87
+Part X: The Cypher - RVR-42
+Part XI: The Angelan - SGV-417-I
+Part XII: The Dordray - RVR-68
+    .1 Introduction
+    !!! fill this in!
+
+Part XIII: Advanced Strategies
+   !!! Fill this in!
+
+Part XIV: Miscellaneous Information
+   !!! Fill this in!
+
+Appendix: Fin
+   A.1 Further reading
+    .2 Credits
+
+=============================================================
+Part I: Introduction to ...
+=============================================================
+
+//-----------------------//
+//  1.1. ... Virtual-On  //
+//-----------------------//
+
+Sega's Cybertroopers Virtual On series (VO) contains Cybertroopers
+Virtual-On: Operation Moongate (VOOM) and Cybertroopers Virtual-On: Oratorio
+Tangram. (VOOT) Virtual-On is a 3D PvP "mech" fighting game spanning over
+four gaming systems. It is arguably one of the deeper fighting games and is
+almost alone in its genre due to its high quality.
+
+More information on Virtual-On is available in the Further Reading (A.1)
+section.
+
+//----------------------------------------//
+//  1.2. ... Virtual-On's control system  //
+//----------------------------------------//
+
+This guide assumes you have basic comprehension of Virtual-On game-play.
+
+[1.2.1 10-key notation]
+
+       789
+    WT 456 TW
+       123
+
+    W   Stick-side Weapon Trigger
+    T   Stick-side Turbo Trigger
+
+Example:
+
+  6.6T      Both sticks right while pressing right stick turbo trigger.
+  8W.9T     Left stick foward and left stick forward diagonally right while
+             pressing left weapon trigger and right turbo trigger.
+
+[1.2.2 Twin Stick control]
+
+    O-- O--         4.4     Both sticks left; VR walks left
+    O--  O        4.5/5.4   One stick left; VR shuffles left
+
+    --O --O         6.6     Both sticks right; VR walks right
+     O  --O       5.6/6.5   One stick right; VR shuffles left
+
+     |   |          2.2     Both sticks back; VR walks backwards
+     O   O        2.5/5.2   One stick back; VR shuffles backwards
+
+     O   O          8.8     Both sticks forward; VR walks forwards
+     |   |        8.5/5.8   One stick forward; VR shuffles forwards
+
+     O   |          8.2     Both sticks in inverted directions;
+     |   O          2.8      rotation to the direction of the downward stick
+
+    O-- --O         4.6     Both sticks apart; VR jumps (J)
+
+    --O O--         6.4     Both sticks inward; Guard (G) / Crouch (Cr) / Guard
+                             Buffer (Gr)
+
+    Right Turbo     5.5T    Right Turbo (RT) / Dash (D) / Dash Cancel
+    Left Turbo      5T.5    Left Turbo (LT) / Dash (D) / Dash Cancel
+    Both Turbo      5T.5T   Both Turbo (BT)
+
+    Right Trigger   5.5W    Right Weapon (RW)
+    Left Trigger    5W.5    Left Weapon (LW)
+    Both Triggers   5W.5W   Center Weapon (CW)
+
+[1.2.3 Dreamcast control]
+
+    Digital Pad Right   VR walks right
+    Digital Pad Left    VR walks left
+    Digital Pad Down    VR walks backwards
+    Digital Pad Up      VR walks forwards
+
+    Analog Up/Down      Start Button
+    Analog Left/Right   Rotate VR Left Right
+
+    Start Button        Pauses/Options for Game
+
+    A Button            Guard (G) / Crouch (Cr) / Guard Buffer (Gr)
+    B Button            Right Turbo (RT) / Dash (D) / Dash Cancel
+    X Button            Left Turbo (LT) / Dash (D) / Dash Cancel
+    Y Button            Jump (J)
+
+    Right Trigger       Right Weapon (RW)
+    Left Trigger        Left Weapon (LW)
+    Both Triggers       Center Weapon (CW)
+
+[1.2.4 Command Notation]
+
+[t] turbo command sets:
+    RT                  Right Turbo type attacks
+    LT                  Left Turbo type attacks
+    BT                  Both Turbo simultaneously type attacks
+
+[w] weapon command sets:
+    RW                  Right Weapon
+    LW                  Left Weapon
+    CW                  Center Weapon
+
+[m] modifier command sets:
+    Cr                  Crouch (below are same movement)
+     \| G               Guard
+      | Gr              Cancel Buffer / Guard Reversal
+    J                   Jumping
+
+Legal RANGEd command chording:
+    [w]
+    [t][w]
+    [m][w]
+    [m][t][w]
+
+Legal MELEE command chording:
+    [w]                 A normal melee attack. (Guard-able)
+    Cr[w]               A crouching attack. (UnBLOCKable and Knockdown)
+    [m]LT[w]            A projectile attack.
+    RT[w]               A turbo attack. (UnGUARDable and Knockdown)
+    Gr[w]               A Guard-Reversal attack. (Guard-able)
+
+Abbreviations:
+    V.Ar                Virtual Armor
+    CC                  Close Combat
+    QS                  Quick Step
+    QS-CC               Quick Step Close Combat
+    VOOT                Virtual On: Oratorio Tangram
+    VOOM                Virtual On: Operation Moongate (the prequel)
+
+//---------------------------//
+//  1.3. ... motion cancels  //
+//---------------------------//
+
+!!! fill this in
+
+=============================================================
+Part II: Part II: The Temjin - MBV-707-G
+=============================================================
+
+//-------------------------//
+//  1.1. ... Introduction  //
+//-------------------------//
+
+//-----------------------//
+//  1.2. Motion Cancels  //
+//-----------------------//
+
+CrRW (66% - 70%)
+
+    CrRTRW
+    CrRTCW
+    CrCW (useless)
+    CrRW (useless)
+    
+=============================================================
+Part III: The Raiden - HBV-502-H8 (RVR-75)
+Part IV: The Fei-Yen Kn - RVR-14
+Part V: The Bal-series - XBV-819-tr4
+Part VI: The Grys-Vok - SAV-326-D/9
+Part VII: The Apharmd B - RVR-39
+Part IIX: The Apharmd S - RVR-33
+Part IX: The Specineff - RVR-87
+Part X: The Cypher - RVR-42
+Part XI: The Angelan - SGV-417-I
+Part XII: The Dordray - RVR-68

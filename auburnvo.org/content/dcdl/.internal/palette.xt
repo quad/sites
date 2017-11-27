@@ -1,0 +1,21 @@
+# XT
+# Handle DC-VOOT palette files
+
+# Image
+
+$vms_info_image = "<IMG SRC=\"?mode=imager&file=" . $vms_file_base . "\" ALT=\"VMS Icon\" ALIGN=\"middle\" WIDTH=32 HEIGHT=32>\n";
+
+# Auto-download
+
+# The auto-download filename is the $vms_file_base. Make sure you name your files politely.
+$vms_header_autod_name_base = "VOORATAN.P";
+
+# VMS
+
+$vms_header_autod .= "<A HREF=\"?name=". $vms_header_autod_name_base . sprintf("%2.2d", $vms_file_count) . "&format=vms&";
+$vms_header_autod .= "mode=get&file=" . $vms_file_base . "\">(VMS)</A>\n";
+
+# DCI
+
+$vms_header_autod .= "<A HREF=\"?name=". $vms_header_autod_name_base . sprintf("%2.2d", $vms_file_count) . "&format=dci&";
+$vms_header_autod .= "mode=get&file=" . $vms_file_base . "\">(DCI)</A>\n";
