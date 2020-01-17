@@ -1,1 +1,3 @@
 Redirect temp /resume.html http://drsr.me/
+Redirect temp /housewarming /housewarming.html
+Redirect temp /hwp /housewarming.html
