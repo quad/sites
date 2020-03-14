@@ -1,3 +1,4 @@
 Redirect temp /resume.html http://drsr.me/
 Redirect temp /housewarming /housewarming.html
 Redirect temp /hwp /housewarming.html
+Redirect temp /covid https://docs.google.com/document/d/10Ahi3eT4xP3s6cNtOEfRj2XwLdUyc77TNlAuTLogcTU/edit

@@ -10,12 +10,13 @@ rsync \
 	--partial \
 	--progress \
 	--delete \
-	--exclude '$0' \
+	--exclude "$(basename $0)" \
 	--exclude '.*.swp' \
 	--exclude '.git' \
 	--exclude '.DS_Store' \
 	--delete-excluded \
-	--filter 'protect .well-known/acme-challenge/' \
+	--filter 'protect .well-known' \
+	--filter 'protect **/.well-known/acme-challenge' \
 	-- \
 	"$FROM" "$TO:"
 
