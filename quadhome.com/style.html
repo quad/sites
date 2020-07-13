@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>css</title>
+		<meta charset=utf-8>
+		<meta name="viewport" content="width=device-width">
+		<style>
+@font-face {
+	font-family: 'Inconsolata';
+	src: local('Inconsolata'), url(inconsolata-v12.woff2) format('woff2');
+}
+
+html {
+	font-family: 'Inconsolata', monospace;
+	font-size: calc(1em + 1vw);
+	color: #333;
+	background: snow;
+}
+
+body {
+	max-width: 90%;
+	margin: auto;
+}
+
+.big {
+	font-size: calc(1em + 2vw);
+}
+		</style>
+	</head>
+	<body style="white-space: pre" />
+	<script>
+		document.body.innerHTML = document.querySelector("style").innerText;
+	</script>
+</html>
