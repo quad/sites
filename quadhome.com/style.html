@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	max-width: 90%;
+	max-width: min(80ch, 90%);
 	margin: auto;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 		</style>
 	</head>
-	<body style="white-space: pre" />
+	<body style="white-space: pre-wrap" />
 	<script>
 		document.body.innerHTML = document.querySelector("style").innerText;
 	</script>
