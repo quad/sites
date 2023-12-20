@@ -3,7 +3,7 @@
 set -e
 
 FROM=$(dirname "$0")
-TO=quad_quadsites@ssh.phx.nearlyfreespeech.net
+TO=quad_quadsites@ssh.nyc1.nearlyfreespeech.net
 
 rsync \
 	--archive \
