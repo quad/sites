@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% import "macros/gallery.html" as gallery %}
+
+{% block content %}
+
+<h1 class="title"> {{ config.title }} </h1>
+
+{{ section.content | safe }}
+
+{{ gallery::render(assets=section.assets) | safe }}
+
+{% endblock content %}

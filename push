@@ -11,12 +11,11 @@ rsync \
 	--progress \
 	--delete \
 	--exclude "$(basename $0)" \
-	--exclude '.*.swp' \
-	--exclude '.DS_Store' \
-	--exclude '.git' \
 	--delete-excluded \
+	--filter='dir-merge,e /.rsync-filter' \
 	--filter 'protect .well-known' \
 	--filter 'protect **/.well-known/acme-challenge' \
+	$* \
 	-- \
 	"$FROM" "$TO:"
 

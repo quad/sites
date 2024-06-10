@@ -1,0 +1,6 @@
++ public/
+- Makefile
+- config.toml
+- content/
+- static/
+- templates/

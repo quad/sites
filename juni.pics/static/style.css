@@ -1,0 +1,48 @@
+:root {
+  --column-gap: 1.5rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+body {
+  font-family: Palatino, Georgia, serif;
+  background: snow;
+  line-height: 1.5;
+  max-width: min(90ch, 95%);
+  margin: 5vh auto;
+}
+
+h1 {
+  font-size: large;
+  font-style: italic;
+  margin: 5vh auto;
+}
+
+p {
+  font-size: smaller;
+  margin: 5vh auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  gap: var(--column-gap);
+}
+
+.gallery a {
+  width: calc(50% - (var(--column-gap) / 2));
+  flex-grow: 1;
+}
+
+.gallery img {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.gallery a:last-child:nth-last-child(odd) img {
+  width: 100%;
+}
