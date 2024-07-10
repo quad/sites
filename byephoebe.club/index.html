@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+		<meta charset="utf-8" />
+
+		<title>jul 17: phoebe's goodbye party</title>
+		<meta property="og:title" content="jul 17: phoebe's goodbye party" />
+		<meta name="description" property="og:description" content="send our girlboss off to america">
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://byephoebe.club/" />
+		<meta property="og:image" content="https://byephoebe.club/og.jpg" />
+		<meta property="og:image:width" content="1067"/>
+		<meta property="og:image:height" content="600"/>
+
+		<meta name="viewport" content="width=device-width" />
+
+		<style>
+			* { box-sizing: border-box; }
+
+			@font-face {
+				font-family: 'Inconsolata';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Inconsolata'), url(inconsolata-v12.woff2) format('woff2');
+			}
+
+			body {
+				font-family: "Inconsolata", monospace;
+				font-size: calc(1em + 1vw);
+				max-width: min(80ch, 90%);
+				margin: auto;
+				color: red;
+				background: black;
+			}
+
+			a {
+				color: blue;
+			}
+
+			ul {
+				padding: 0;
+			}
+
+			ol li {
+				margin-top: 1em;
+			}
+
+			ul li {
+				display: inline-block;
+				font-weight: bold;
+			}
+
+			ul li:not(:last-child):after {
+				content: " +";
+				font-weight: normal;
+			}
+
+			#background {
+				position: fixed;
+				top: 0;
+				left: 0;
+				height: 100vh;
+
+				display: grid;
+				grid-template-columns: 50vw 50vw;
+				grid-template-areas: "up down";
+
+				z-index: -1;
+			}
+
+			#background div {
+				width: 50vw;
+				font-size: 25vw;
+				color: white;
+			}
+
+			#background .up {
+				grid-area: up;
+				animation:
+					up 15s linear infinite,
+					flicker 3s ease-in-out infinite;
+			}
+
+			@keyframes up {
+				0% { transform: translateY(0); }
+				100% { transform: translateY(-50%); }
+			}
+
+			#background .down {
+				grid-area: down;
+				animation:
+					down 30s linear infinite,
+					flicker 1s ease-in-out infinite;
+			}
+
+			@keyframes down {
+				0% { transform: translateY(-50%); }
+				100% { transform: translateY(0); }
+			}
+
+			@keyframes flicker {
+				0% { opacity: 15%; }
+				50% { opacity: 10%; }
+				100% { opacity: 15%; }
+			}
+		</style>
+	</head>
+	<body>
+		<h1>jul 17: phoebe's goodbye party</h1>
+
+		<p>send our girlboss off to america</p>
+
+		<h2>
+			earth angels<br />
+			225-229 victoria st, west melbourne
+			<a href="https://maps.app.goo.gl/eQYFqd9Bn7B5fWiz7">(map)</a>
+		</h2>
+
+		<h2>
+			before: drinks @ block<br />
+
+			7pm: dinner
+			<a href="https://calendar.app.google/6gm3TWotdvY15Jb4A">(rsvp)</a>
+		</h2>
+
+		<ul>
+			we bring:
+
+			<li>food</li>
+			<li>music</li>
+			<li>seating</li>
+			<li>phoebe</li>
+		</ul>
+
+		<ul>
+			you bring:
+
+			<li>yourself</li>
+			<li>stories</li>
+		</ul>
+
+		<h3>faq</h3>
+
+		<ol>
+			<li>
+				how do i contribute to the dinner playlist?<br />
+				share your track(s) on the <a href="https://chat.whatsapp.com/C28iDedoAxn3RTCtcNw5c8">group chat</a>
+			</li>
+		</ol>
+
+		<section id="background">
+			<div class="up">
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+				告别<br />
+			</div>
+
+			<div class="down">
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+				派對<br />
+			</div>
+		</section>
+	</body>
+</html>
