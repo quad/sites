@@ -18,5 +18,3 @@ rsync \
 	$* \
 	-- \
 	"$FROM" "$TO:"
-
-ssh "$TO" tls-setup.sh
