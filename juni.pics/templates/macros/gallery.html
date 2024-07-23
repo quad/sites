@@ -24,14 +24,15 @@
 
         <a href="{{ orig_path | safe }}"
            target="_blank"
-	   data-pswp-srcset="{{ thumb_s.url | safe }} {{ thumb_s.width }}w, {{ thumb_m.url | safe }} {{ thumb_m.width }}w, {{ thumb_l.url | safe }} {{ thumb_l.width }}w, {{ orig_path }} {{ orig.width }}w"
+	   data-pswp-srcset="{{ thumb_m.url | safe }} {{ thumb_m.width }}w, {{ thumb_l.url | safe }} {{ thumb_l.width }}w, {{ orig_path }} {{ orig.width }}w"
            data-pswp-width="{{ orig.width }}"
            data-pswp-height="{{ orig.height }}"
            >
-          <img src="{{ thumb_s.url | safe }}"
-	       srcset="{{ thumb_s.url | safe }} {{ thumb_s.width }}w, {{ thumb_m.url | safe }} {{ thumb_m.width }}w, {{ thumb_l.url | safe }} {{ thumb_l.width }}w, {{ orig_path }} {{ orig.width }}w"
+          <img srcset="{{ thumb_m.url | safe }} {{ thumb_m.width }}w"
+               src="{{ thumb_s.url | safe }}"
                width="{{ thumb_s.width }}"
                height="{{ thumb_s.height }}"
+               loading="lazy"
                />
         </a>
       {%- endif %}
