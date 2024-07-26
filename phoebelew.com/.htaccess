@@ -1,0 +1,1 @@
+RedirectMatch temp "/$" "https://open.spotify.com/user/1124921278"
