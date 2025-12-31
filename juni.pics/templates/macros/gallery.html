@@ -18,18 +18,17 @@
       {%- if path is matching("[.](jpg|jpeg)$") -%}
         {%- set orig = get_image_metadata(path=path) -%}
         {%- set orig_path = get_url(path=path) -%}
-        {%- set thumb_s = resize_image(path=path, width=480, height=720, op="fit") -%}
-        {%- set thumb_m = resize_image(path=path, width=720, height=1280, op="fit") -%}
-        {%- set thumb_l = resize_image(path=path, width=1440, height=2560, op="fit") -%}
+        {%- set thumb_s = resize_image(path=path, width=480, op="fit_width") -%}
+        {%- set thumb_m = resize_image(path=path, width=(orig.width / 4)|int, op="fit_width") -%}
+        {%- set thumb_l = resize_image(path=path, width=(orig.width / 2)|int, op="fit_width") -%}
 
         <a href="{{ orig_path | safe }}"
            target="_blank"
-	   data-pswp-srcset="{{ thumb_m.url | safe }} {{ thumb_m.width }}w, {{ thumb_l.url | safe }} {{ thumb_l.width }}w, {{ orig_path }} {{ orig.width }}w"
+	   data-pswp-srcset="{{ thumb_m.url | safe }} {{ thumb_m.width }}w, {{ thumb_l.url | safe }} {{ thumb_l.width }}w"
            data-pswp-width="{{ orig.width }}"
            data-pswp-height="{{ orig.height }}"
            >
-          <img srcset="{{ thumb_m.url | safe }} {{ thumb_m.width }}w"
-               src="{{ thumb_s.url | safe }}"
+          <img src="{{ thumb_s.url | safe }}"
                width="{{ thumb_s.width }}"
                height="{{ thumb_s.height }}"
                loading="lazy"
