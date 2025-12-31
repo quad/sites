@@ -10,7 +10,12 @@ in := config.toml \
       static/style.css
 
 %.jpg: %.HEIC
-	magick $< -strip $@
+	sips \
+		-s format jpeg \
+		-s formatOptions 85 \
+		--optimizeColorForSharing \
+		$< \
+		--out $@
 
 public: $(in)
 	zola build
