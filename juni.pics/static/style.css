@@ -1,5 +1,6 @@
 :root {
-  --column-gap: 1.5rem;
+  --block-margin: 1.5vh;
+  --column-gap: 0.5rem;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -10,18 +11,18 @@ body {
   background: snow;
   line-height: 1.5;
   max-width: min(90ch, 95%);
-  margin: 5vh auto;
+  margin: var(--block-margin) auto;
 }
 
 h1 {
   font-size: large;
   font-style: italic;
-  margin: 5vh auto;
+  margin: var(--block-margin) auto;
 }
 
 p {
   font-size: smaller;
-  margin: 5vh auto;
+  margin: var(--block-margin) auto;
 }
 
 .gallery {
