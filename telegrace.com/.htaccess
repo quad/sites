@@ -1,0 +1,1 @@
+RedirectMatch temp "/$" "https://github.com/telegrace/"
