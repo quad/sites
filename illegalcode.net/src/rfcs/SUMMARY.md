@@ -16,6 +16,8 @@ Evergreen content of prurient interest to the general public
 ## In Review
 
 - [Manual programming](manual_programming.md)
+- [Dependency cooldowns are unfair; we should use phased rollouts instead](phased_rollouts.md)  
+  Wherein I begin to feel like a one trick pony
 
 ## Draft
 
