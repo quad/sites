@@ -1,12 +1,17 @@
 # Dependency cooldowns are unfair; we should use phased rollouts instead
 
+> [!NOTE]
+> I'm bad at writing and implicitly make the bold assumption of correlations at 00:00 UTC.
+> I've made minor changes from the original draft to emphasise that point.
+
 It was a sunny morning in Melbourne on March 31st. Developers starting their workday were sipping their flat whites as they waited for `npm install` to finish. You know the rest of this story. [The Axios supply chain compromise was live from 00:21 to 03:15 UTC](https://www.sans.org/blog/axios-npm-supply-chain-compromise-malicious-packages-remote-access-trojan) and disproportionately hit the eastern hemisphere. In the aftermath, the quiet calls for dependency cooldowns almost overnight became [industry best practice](https://cooldowns.dev/).
 
-[Cooldowns work against fast-acting supply-chain attacks](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns). But they have an awkward property: they implicitly rely on someone else installing first. In practice, that "someone else" means Asia-Pacific:
+[Cooldowns work against fast-acting supply-chain attacks](https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns). But they have an awkward property: they implicitly rely on someone else installing first. In common (mal)practice, that "someone else" means Asia-Pacific:
 
-- 8:21am in China
-- 9:21am in Tokyo
-- 11:21am in Sydney
+- 00:00 UTC
+- 08:00 in China
+- 09:00 in Tokyo
+- 11:00 in Sydney
 
 I propose that instead of "everyone waits N days," package managers should deterministically map projects into a rollout window based on stable inputs: a project-specific identifier, package name, version, and artifact digest. The result is a globally distributed adoption curve rather than timezone-based canaries.
 
